@@ -1,0 +1,124 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+<div class="new-product-box-banner-home">
+	<div class="new-box-banner-home-container">
+		<div class="row">
+		
+		<div class="new-product-home col-md-9">
+			<script type="text/javascript">
+			var $gg = jQuery.noConflict();
+				
+				function viewDesc(id, over){
+					if(over){
+						$gg('#product_item_'+id+' .img-desc > .desc').stop().animate({opacity:'0.8'});
+					}else{
+						$gg('#product_item_'+id+' .img-desc > .desc').stop().animate({opacity:'0'});
+					}
+				}
+			</script>
+			<div class="title-product-new">
+				<h2 class="subtitle"><?php echo $this->__('New Products') ?></h2>
+			</div>
+					<ul class="products-grid">
+					<?php $_columnCount =6; ?>
+					<?php $i=0; foreach ($_products->getItems() as $_product): $i++;?>
+					
+						<li id="product_item_<?php echo $_product->getId()?>"  class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+							<div class="product-info-container">
+								<div class="img-desc" onmouseover="viewDesc('<?php echo $_product->getId()?>', 1)" onmouseout="viewDesc('<?php echo $_product->getId()?>', 0)">
+								<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(350, 350) ?>" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" /></a>
+									<div class="desc std">
+										<?php $_description = nl2br($this->htmlEscape($_product->getShortDescription()))?>
+										<?php $short_desc = substr($_description, 0,100);  ?>
+										<?php if(substr($short_desc, 0, strrpos($short_desc, ' '))!='') $short_desc = substr($short_desc, 0, strrpos($short_desc, ' '));$short_desc = $short_desc.'...'; ?>
+										<?php echo $short_desc;?>
+									</div>	
+								</div>
+								<h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h3>
+								<div class="product-info">
+									<div class="price-showndesc-actions">
+										<?php echo $this->getPriceHtml($_product, true, '-new') ?>
+										<div class="actions-showdesc">
+											<div class="showndesc">
+												<div class="showdesc-button" onmouseover="viewDesc('<?php echo $_product->getId()?>', 1)" onmouseout="viewDesc('<?php echo $_product->getId()?>', 0)">&nbsp;</div>
+											</div>
+											<div class="actions">
+												<?php if($_product->isSaleable()): ?>
+													<button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+												<?php else: ?>
+													<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+												<?php endif; ?>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					
+					<?php endforeach; ?>
+				<?php if ($i%$_columnCount==0 || $i==count($_products)): ?>
+						</ul>
+			   <?php endif ?>
+				<script type="text/javascript">decorateGeneric($$('ul.products-grid-new-product'), ['odd','even','first','last'])</script>
+		</div>
+		
+		
+		<div class="box-banner-home col-md-3">
+			<ul class="box-banner-content">
+				<li class="first item">
+					<a href="#" title="Free Shipping"><img src="<?php echo $this->getSkinUrl('images/img-free-shipping.png')?>" width="238" /></a>
+				</li>
+				<li class="item">
+					<a href="#" title="Arrivals"><img src="<?php echo $this->getSkinUrl('images/img-arrivals.png')?>" width="238" /></a>
+				</li>
+				<li class="last item">
+					<a href="#" title="Summer Collection"><img src="<?php echo $this->getSkinUrl('images/img-summer-collection.png')?>" width="238" /></a>
+				</li>
+			</ul>
+		</div>
+	
+		</div>
+	</div>
+</div>
+
+<?php else:?>
+
+<div class="box-banner-home-1layout">
+	<ul class="box-banner-content-1layout">
+		<li class="first item">
+			<a href="#" title="Free Shipping"><img src="<?php echo $this->getSkinUrl('images/img-free-shipping-1layout.png')?>" width="300" /></a>
+		</li>
+		<li class="item">
+			<a href="#" title="Arrivals"><img src="<?php echo $this->getSkinUrl('images/img-arrivals-1layout.png')?>" width="300" /></a>
+		</li>
+		<li class="last item">
+			<a href="#" title="Summer Collection"><img src="<?php echo $this->getSkinUrl('images/img-summer-collection-1layout.png')?>" width="300" /></a>
+		</li>
+	</ul>
+</div>
+<?php endif; ?>

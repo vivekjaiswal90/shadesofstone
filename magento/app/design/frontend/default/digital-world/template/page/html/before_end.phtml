@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('.wrapper').append('<div id="back-top" title="Top"></div>');
+			jQuery(window).scroll(function() {
+				if(jQuery(window).scrollTop() != 0) {
+				jQuery('#back-top').fadeIn();
+					} else {
+				jQuery('#back-top').fadeOut();
+					}
+					});
+				jQuery('#back-top').click(function() {
+				jQuery('html, body').animate({scrollTop:0},1000);
+				});
+			}); 
+</script>

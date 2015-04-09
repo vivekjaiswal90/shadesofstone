@@ -1,0 +1,3 @@
+
+<div class="home-new-product-box-banner">{{block type="cms/block" block_id="digitalworld-new-product-box-banner-home"}}</div>
+
