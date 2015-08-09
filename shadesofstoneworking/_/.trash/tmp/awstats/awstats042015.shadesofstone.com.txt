@@ -1,0 +1,662 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /home/shadesofstone/tmp/awstats/awstats.shadesofstone.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2702                
+POS_VISITOR 14223               
+POS_DAY 17486               
+POS_DOMAIN 3592                
+POS_LOGIN 4013                
+POS_ROBOT 4168                
+POS_WORMS 4528                
+POS_EMAILSENDER 4659                
+POS_EMAILRECEIVER 4802                
+POS_SESSION 17893               
+POS_SIDER 18100               
+POS_FILETYPES 4937                
+POS_DOWNLOADS 5198                
+POS_OS 5370                
+POS_BROWSER 5589                
+POS_SCREENSIZE 6229                
+POS_UNKNOWNREFERER 6303                
+POS_UNKNOWNREFERERBROWSER 6499                
+POS_ORIGIN 6762                
+POS_SEREFERRALS 6901                
+POS_PAGEREFS 7066                
+POS_SEARCHWORDS 7214                
+POS_KEYWORDS 7366                
+POS_MISC 2365                
+POS_ERRORS 7425                
+POS_CLUSTER 3869                
+POS_SIDER_404 7579                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150413050252 317 76585 22800286341912
+FirstTime 20150401021700
+LastTime 20150413050250
+LastUpdate 20150413050256 317 0 317 0 0
+TotalVisits 123                 
+TotalUnique 75                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 78                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 35 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 16 224361 149 256 1787320
+1 9 173 5369094 94 156 1115288
+2 39 335 11415866 167 261 1653362
+3 22 202 7973513 145 290 1605451
+4 4 4 243222 90 110 1714039
+5 14 134 1192940 111 179 1637944
+6 2 2 30885 104 117 2203563
+7 15 421 10518259 128 175 1740883
+8 8 190 3805142 98 121 1278490
+9 19 736 24376763 185 296 2933139
+10 8 8 106274 84 95 1071677
+11 92 1206 21480727 218 383 3066072
+12 322 2121 24850198 345 493 6511744
+13 55 593 3005507 144 181 2749253
+14 12 132 3801175 96 137 1366752
+15 13 324 12419497 106 163 1309077
+16 12 26 167886 74 90 1170624
+17 0 0 0 72 78 1137402
+18 33 90 401909 98 109 1773469
+19 8 13 143555 98 126 1614703
+20 2 24 203337 95 150 1683784
+21 5 38 2416707 97 141 1946490
+22 11 137 3595792 127 200 1907423
+23 22 207 9497718 132 212 1523450
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+us 538 4746 74620074
+in 110 1639 51377870
+cn 26 184 6302126
+de 23 23 373788
+jp 18 285 7491266
+lu 9 9 138986
+ua 6 6 90903
+zz 5 5 222831
+fr 3 3 35886
+ca 2 115 3225320
+it 1 115 3240688
+ru 1 1 15671
+lv 1 1 104918
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 1202 14997120 20150413030822 0
+spider 648 9484891 20150413045507 0
+bot[\s_+:,\.\;\/\\-] 26 592496 20150411180313 0
+no_user_agent 10 104917 20150411195915 0
+crawl 1 15442 20150411003235 0
+robot 1 15442 20150410235143 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 933 4690461 0 0
+png 1644 10060571 0 0
+htm 2 3407 0 0
+swf 1 180912 0 0
+php 1 15532 0 0
+html 682 10404957 0 0
+js 2307 16301313 0 0
+jpg 1425 104640802 0 0
+Unknown 57 783690 0 0
+gif 80 158682 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/media/wysiwyg/GRANITEMATERIALFACTSHEET022509.pdf 1 0 664247
+/media/wysiwyg/SANDSTONEMATERIALFACTSHEET022509.pdf 1 0 647673
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+blackberry 1 1
+winxp 447 86
+ios_iphone 116 1
+linux 125 12
+win7 4276 529
+macosx 246 14
+winunknown 1 1
+win8 1 0
+win8.1 1618 84
+Unknown 2 1
+ios_ipad 299 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+firefox32.0 1 1
+msie6.0 29 29
+blackberry 1 1
+chrome11.0.696.68 1 1
+firefox3.6 9 9
+chrome38.0.2125.104 164 6
+chrome34.0.1847.137 2 2
+chrome40.0.2214.111 119 1
+chrome39.0.2171.95 1 1
+chrome41.0.2272.118 4346 461
+opera26.0.1656.60 1 1
+chrome36.0.1985.125 2 2
+chrome36.0.1985.97 2 2
+firefox3.0.5 1 1
+firefox33.0 3 3
+firefox6.0.2 18 18
+firefox25.0 115 2
+chrome41.0.2272.101 646 101
+firefox37.0 198 3
+firefox14.0.1 10 10
+chrome32.0.1700.76 118 2
+msie7.0 1 0
+firefox6.0 14 14
+safari8.0.2 127 9
+safari8.0 418 18
+chrome41.0.2228.0 1 1
+msie9.0 188 4
+Unknown 3 2
+firefox36.0 221 4
+firefox35.0 372 34
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150407234433
+Ruby 20150409203428
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150407234433
+python-requests/2.5.1_CPython/2.7.2_Windows/2008ServerR2 20150404053749
+Ruby 20150409203428
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 133 199
+From1 0 0
+From2 9 9
+From3 0 0
+From4 601 6924
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 8 8
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+503 55 187931
+302 376 40181
+206 10 1179835
+500 1 0
+301 96 0
+404 2058 19858296
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 82
+/index.php/kitchen-bath/mosaics-blends/metal-mosaics/customer/account/create/ 1 -
+/index.php/review/product/list/id/1/customer/account/create/ 1 -
+/sitemap.xml 1 -
+/skin/frontend/default/default/js/lib/matchmedia.addlistener.js 1 -
+/robots.txt 61 -
+/index.php/kitchen-bath/mosaics-blends/subway-tiles/customer/account/create/ 1 -
+/skin/frontend/default/default/css/fonts/oswald-bold-webfont.ttf 4 http://shadesofstone.com/
+/index.php/review/product/list/id/7/ 1 -
+/js/my_igallery/%7Bpath%7D 1 -
+/index.php/popular-series/tuscany-gold/customer/account/create/ 1 -
+/index.php/kitchen-bath/mosaics-blends/marbles-mosaics/customer/account/create/ 1 -
+/index.php/flooring/customer/account/create/ 1 -
+/index.php/review/product/list/id/3/category/10/customer/account/create/ 1 -
+/index.php/tag/product/list/tagId/5/ 2 -
+/index.php/review/product/list/id/8/ 1 -
+/index.php/review/product/list/id/5/category/10/ 1 -
+/index.php/popular-series/stainless-steel/customer/account/create/ 1 -
+/index.php/review/product/list/id/5/category/12/ 1 -
+/index.php/flooring/ 1 -
+/index.php/tag/product/list/tagId/1/ 10 -
+/js/prototype/windows/themes/magento.css 201 http://shadesofstone.com/robots.txt
+/skin/frontend/default/default/css/fonts/opensans-bold-webfont.ttf 4 http://shadesofstone.com/
+/index.php/review/product/list/id/2/category/10/ 1 -
+/index.php/black-rust-classic-12x12-gauged.html 2 -
+/index.php/kitchen-bath/ 1 -
+/index.php/idea-s/ 1 -
+/index.php/review/product/list/id/4/category/10/customer/account/create/ 1 -
+/js/my_igallery/jquery.prettyphoto.js 1 -
+/magmi/web/magmi.php 2 http://shadesofstone.com/magmi/web/magmi.php
+/index.php/onyx-sand-12x12-glazed.html 2 -
+/media/catalog/category/ 1 http://shadesofstone.com/index.php//
+/skin/frontend/default/default/css/fonts/oswald-bold-webfont.woff 4 http://shadesofstone.com/
+/index.php/review/product/list/id/9/ 1 -
+/skin/frontend/base/default/facegall/source/helpers/jquery.fancybox-buttons.js 21 http://shadesofstone.com/index.php/fromquarrytofloor
+/skin/frontend/default/default/my_igallery/images/bkg_grid.gif 12 http://shadesofstone.com/skin/frontend/default/default/my_igallery/css/styles.css
+/skin/frontend/default/default/css/fonts/oswald-bold-webfont.eot 4 http://shadesofstone.com/
+/skin/frontend/base/default/facegall/source/jquery.fancybox.js 21 http://shadesofstone.com/index.php/fromquarrytofloor
+/a 1 -
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.svg 9 http://shadesofstone.com/index.php/oddysey-perla-12x12-blend.html
+/index.php/popular-series/ 1 -
+/index.php/landscape/ 1 -
+/index.php/kitchen-bath/mosaics-blends/ 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.ttf 176 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/skin/frontend/default/default/css/fonts/opensans-bold-webfont.eot 4 http://shadesofstone.com/
+/skin/frontend/default/default/js/lib/matchmedia.js 1 -
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.woff 177 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/tag/product/list/tagId/3/ 4 -
+/index.php/review/product/list/id/2/category/12/customer/account/create/ 1 -
+/skin/frontend/default/default/css/images/popup-heading-bg.png 9 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/diy.html 13 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.eot 4 http://shadesofstone.com/
+/index.php/kitchen-bath/mosaics-blends/customer/account/create/ 1 -
+/skin/frontend/default/default/testimonialmanager/images/bx_loader.gif 94 http://shadesofstone.com/skin/frontend/default/default/testimonialmanager/jquery.bxslider.css
+/skin/frontend/default/default/css/fonts/opensans-bold-webfont.woff 4 http://shadesofstone.com/
+/skin/frontend/default/default/testimonialmanager/jquerynoconfig.js 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.woff 176 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/review/product/list/id/1/ 1 -
+/skin/frontend/default/default/css/images/popup-close-btn.png 179 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/kitchen-bath/glass-metal-tiles/ 1 -
+/index.php/landscape/customer/account/create/ 1 -
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.eot 4 http://shadesofstone.com/
+/js/prototype/windows/themes/ 3 -
+/index.php/review/product/list/id/5/customer/account/create/ 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.svg 9 http://shadesofstone.com/index.php/oddysey-perla-12x12-blend.html
+/skin/frontend/default/default/css/shadesofstones/radio.png 1 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/new-input.css
+/skin/frontend/default/default/js/shadesofstones/ 1 -
+/index.php/popular-series/arabescato-carrara/customer/account/create/ 1 -
+/skin/frontend/base/default/js/shadesofstones/docs.min.js 248 http://shadesofstone.com/robots.txt
+/skin/frontend/base/default/images/catalog/product/placeholder/.jpg 2 http://shadesofstone.com/index.php/bathroomscene
+/index.php/catalog/product/upload/ 1 -
+/media/slider/Living%20Room.jpg 13 http://shadesofstone.com/
+/skin/frontend/default/default/css/images/bnr-offer-text-bg-2.png 5 http://shadesofstone.com/
+/skin/frontend/default/default/css/shadesofstones/images/shadesofstones/stock-btn-bg.png 11 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style.css
+/index.php/popular-series/customer/account/create/ 1 -
+/index.php/landscape/indoor-outdoors/ 1 -
+/skin/frontend/default/default/css/shadesofstones/checkbox.png 1 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/new-input.css
+/skin/frontend/default/default/css/images/logo-bg.png 192 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style.css
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.ttf 176 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/tag/product/list/tagId/2/ 6 -
+/skin/frontend/base/default/facegall/source/helpers/jquery.fancybox-buttons.css 21 http://shadesofstone.com/index.php/fromquarrytofloor
+/app/etc/local.xml 126 -
+/index.php/landscape/driveway-walkway/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 78
+65.122.111.70 428 3251 39914332 20150410094931
+96.255.239.138 47 402 9590546 20150411124301
+112.196.17.103 29 387 15509837 20150406024736
+180.151.13.66 28 674 19481600 20150412031110
+46.4.189.109 20 20 235482 20150412125232
+182.69.249.91 16 17 401194 20150404022409
+122.177.193.157 14 59 4515053 20150403003600
+69.58.178.59 11 11 918671 20150410025126
+75.172.10.157 9 127 3581449 20150405142850
+94.242.239.162 9 9 138986 20150411195919
+112.196.17.105 8 32 672548 20150407220140
+126.65.142.104 7 140 3658591 20150411035838
+124.129.235.54 6 164 5272242 20150407014651
+126.114.174.137 6 126 3644900 20150407093835
+98.244.139.179 6 109 2055295 20150403110352
+66.249.83.130 6 6 49829 20150408181450
+217.12.202.39 5 5 75459 20150407023531
+122.177.24.153 5 5 68337 20150401023825
+66.249.83.250 4 4 47417 20150411124259
+126.15.160.112 4 12 117403 20150408104418
+24.43.110.83 4 31 2349940 20150407212849
+74.95.240.29 3 102 1061501 20150409125821
+54.209.60.63 3 4 43255 20150409203425
+122.177.205.84 3 14 463806 20150407055806
+123.236.198.136 3 338 9622162 20150401090711
+122.177.213.63 2 111 611934 20150413050250 20150413050133 /index.php/flooring.html
+85.113.55.152 1 1 15671 20150401092248
+202.46.58.149 1 1 12502 20150402102704
+73.20.89.161 2 84 775934 20150410131611
+104.40.227.201 1 1 15443 20150404053749
+144.76.30.242 1 1 15445 20150405153307
+23.232.142.154 1 1 19391 20150407193407
+220.181.108.184 1 1 107419 20150401123456
+123.125.71.45 1 1 15669 20150401025613
+180.76.6.157 1 1 15672 20150401052519
+123.125.71.43 1 1 104918 20150402135039
+123.125.71.53 1 1 107418 20150401123110
+220.181.108.140 1 1 15442 20150402135150
+204.187.14.74 2 115 3225320 20150402230313
+93.35.55.156 1 115 3240688 20150407093322
+54.166.235.137 1 1 12848 20150406081933
+136.169.10.10 1 1 104918 20150403045934
+54.80.137.156 1 1 15442 20150406071951
+123.125.71.77 1 1 104975 20150407115023
+54.149.107.194 1 1 104918 20150407234433
+123.125.71.42 1 1 15670 20150401123053
+220.181.108.185 1 1 15670 20150401123355
+66.102.7.236 2 2 16530 20150412114725
+96.25.37.98 1 114 3209877 20150409120001
+199.249.162.200 1 115 3240686 20150407123545
+220.181.108.147 1 1 107418 20150401025950
+104.40.138.109 2 2 180809 20150411113303
+220.181.108.91 1 1 104976 20150407115154
+107.152.128.28 1 1 78505 20150403153849
+144.76.64.115 1 1 15443 20150406105710
+180.76.5.78 1 1 15443 20150408055334
+91.121.163.214 2 2 23911 20150402070207
+212.129.7.158 1 1 11975 20150407235706
+207.46.13.41 0 9 69615 
+126.114.164.176 1 7 70372 20150411013756
+138.128.2.235 2 2 26579 20150410081343
+92.222.67.109 1 1 107418 20150402041637
+72.192.139.178 1 115 3240681 20150409115924
+54.158.22.44 1 59 387981 20150406082537
+220.181.108.79 1 1 104918 20150402135254
+66.87.82.68 1 116 3283682 20150408071617
+220.181.108.112 1 1 15447 20150407115111
+123.125.71.16 1 1 107418 20150401025653
+202.46.63.158 1 1 12352 20150402191638
+217.12.201.74 1 1 15444 20150404115822
+220.181.108.176 1 1 15669 20150401025850
+157.55.39.128 0 11 92948 
+66.249.83.137 2 2 2180 20150411124259
+123.125.71.72 1 1 15443 20150407114941
+115.248.202.114 2 2 31399 20150401221434
+54.145.231.254 1 59 390880 20150406075557
+157.55.39.158 0 8 65741 
+123.125.71.50 1 1 15445 20150402134957
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20150401 23 476 13534367 16
+20150402 453 3355 45681470 13
+20150403 33 343 11799382 11
+20150404 24 143 3801551 7
+20150405 10 128 3596894 2
+20150406 30 439 11145848 9
+20150407 51 889 28089314 20
+20150408 11 134 3468380 8
+20150409 49 581 13828639 10
+20150410 21 106 3633423 5
+20150411 21 270 4422321 12
+20150412 15 157 3626804 9
+20150413 2 111 611934 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 11
+2mn-5mn 9
+30s-2mn 6
+15mn-30mn 4
+0s-30s 84
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 180
+/ 116 3060185 83 62
+/index.php/ 24 552057 3 5
+/index.php/admin/system_config/state/key/e6957e156feac6e219eacb34f525c21b/ 24 0 0 0
+/index.php/contacts/ 23 327156 14 14
+/index.php/igallery/adminhtml_banner/image/key/a6a0e2e7fc3fe6bf2295c21f967f6d4c/ 22 5396 0 0
+/index.php/roomscene 21 252062 0 2
+/index.php/slider/adminhtml_slider/index/key/be65e6a1025418473b55d6ac163b6ffd/ 19 255721 0 0
+/index.php/admin/system_config/state/key/c04b65d473b199752768bdc80f3e2453/ 18 0 0 0
+/index.php/kitchen-bath.html 15 221067 2 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvRmxvb3JpbmcuSlBHIn19/key/6b24db0a7f9875c1951624472756bc87/ 13 622024 0 0
+/index.php/flooring.html 13 301022 2 3
+/index.php/admin/cms_block/index/key/1e47c82d50129b0d698b43fea136b15e/ 11 149550 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvTGFuZHNjYXBlLmpwZyJ9fQ,,/key/6b24db0a7f9875c1951624472756bc87/ 10 1334690 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/Y250Y3QtbG9jLWltZy5wbmc-/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 31122 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzguanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 26514 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/c2F2aW5nMDEucG5n/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 24399 0 0
+/index.php/slider/adminhtml_slider/edit/id/2/key/7179ff31f8c4895c5fbcdf1ef2dfe50f/ 9 115870 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzkuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 23571 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzIuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 22122 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzEuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 20070 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/cHJpY2UwMS5wbmc-/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 17172 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzMuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 19323 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzYuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 23067 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/c2hpcHBpbmcwMS5wbmc-/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 27306 0 0
+/index.php/admin 9 9811 6 5
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvbW9zdC1wb3AtZmVhLWltZzMuanBnIn19/key/6b24db0a7f9875c1951624472756bc87/ 5 36975 0 0
+/index.php/oddysey-perla-12x12-blend.html 1 16841 0 0
+/index.php/admin/system_config/edit/section/contacts/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 23726 0 0
+/index.php/admin/cms_wysiwyg_images/upload/type/image/key/6bf70f5767283134ba4ea23089a2cc53/ 3 711 0 0
+/index.php/kitchen-bath/trims-borders.html 1 11306 0 0
+/index.php/slider/adminhtml_slider/edit/id/5/key/7179ff31f8c4895c5fbcdf1ef2dfe50f/ 1 12868 0 0
+/index.php/admin/cms_page/edit/page_id/25/key/ae25016b03d623cf7b3186da60ab0d51/ 1 15451 0 0
+/index.php/termsofuse 1 19391 1 1
+/index.php/edgeprofilevisualizer 1 11899 0 0
+/index.php/catalogsearch/advanced/ 1 13055 0 0
+/index.php/admin/poll/index/key/80ca9661869c85d68816139058a4e3cb/ 1 12747 0 0
+/index.php/admin/system_config_system_storage/status/key/ba3c0119a17c9903ef9a76db0ae510e9/ 1 31 0 0
+/index.php/admin/promo_quote/index/key/57fb278f8badd212fa0ccc49154b1599/ 1 12981 0 0
+/index.php/flooring/natural-stone.html 1 77570 0 0
+/index.php/ledgerpanelvisualizer 2 23811 1 1
+/index.php/admin/catalog_category/edit/id/103/key/c856c4a00c376a8d13655bcd3da9f473/ 1 6790 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/TGFuZHNjYXBlLmpwZw--/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 8 21864 0 0
+/index.php/admin/cms_wysiwyg_images/index/key/97a975e086cac68c804cd41faf567fcb/target_element_id/block_content/store/undefined/type/image/ 5 11217 0 0
+/index.php/customer/account/login/ 3 95528 0 1
+/index.php/admin/system_email_template/index/key/a56722ea5644ca3c85bcfe3a56144312/ 2 25642 0 0
+/index.php/catalogsearch/result/ 3 32996 0 1
+/index.php/admin/dashboard/index/key/e0d369f3ee8c48f2639ed2bb6ac6ea6a/ 1 13737 0 0
+/index.php/kitchenvisualizer 2 23821 0 2
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/Rmxvb3JpbmcuSlBH/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 6 15516 0 0
+/index.php/flooring/natural-stone/onyx.html 2 22256 0 0
+/index.php/kitchen-bath/mosaics-blends/onyx-mosaics.html 1 11138 0 0
+/index.php/slider/adminhtml_slider/edit/id/3/key/7179ff31f8c4895c5fbcdf1ef2dfe50f/ 2 25751 0 0
+/index.php/flooring/silver-travertine-16-sft-french-pattern.html 1 16861 0 1
+/index.php/admin/system_config/edit/section/slider/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 24595 0 0
+/index.php/popular-series.html 6 96129 0 0
+/index.php/checkout/cart/ 3 38776 0 0
+/index.php/flooring/natural-stone/travertine.html 1 12549 0 1
+/index.php/admin/cms_wysiwyg_images/index/key/97a975e086cac68c804cd41faf567fcb/target_element_id/block_content/store/undefined/type/file/ 1 2258 0 0
+/index.php/slider/adminhtml_slider/new/key/25e382c80fd69e8cc678a6543074a083/ 1 12462 0 0
+/index.php/admin/cms_page/edit/page_id/26/key/ae25016b03d623cf7b3186da60ab0d51/ 1 15453 0 0
+/index.php/admin/system_design/index/key/b0fd9cda09920af0e726de5b482b8f9e/ 1 12766 0 0
+/index.php/igallery/adminhtml_banner/edit/id/2/key/16798bd110defd1231a752e523608208/ 4 57854 0 0
+/index.php/kitchen-bath/mosaics-blends/medallion.html 1 11136 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvbW9zdC1wb3AtZmVhLWltZzkuanBnIn19/key/6b24db0a7f9875c1951624472756bc87/ 4 38256 0 0
+/index.php/admin/system_config/edit/section/design/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 27285 0 0
+/index.php/admin/system_config/index/key/49d1677506d555cc897c796b6bb814fc/ 1 31447 0 0
+/index.php/admin/system_config/edit/section/api/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 23573 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/a2IuanBn/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 2 5376 0 0
+/index.php/checkout/onepage/getAdditional/ 1 24 0 0
+/index.php/catalog/seo_sitemap/category/ 1 12636 0 0
+/index.php/admin/system_config/edit/section/web/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 25993 0 0
+/index.php/admin/customer_group/index/key/e2ac6cad7d8baf2ff669ed0bd4bde8b7/ 2 24768 0 0
+/index.php/landscapeideas 2 25153 0 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcva2IuanBnIn19/key/6b24db0a7f9875c1951624472756bc87/ 3 168525 0 0
+/index.php/popular-series/arabescato-carrara.html 1 13174 0 0
+/index.php/flooring/natural-stone/limestone.html 2 22249 0 0
+/index.php/about-magento-demo-store 2 84945 0 1
+/index.php/popular-series/green-onyx.html 1 11110 0 0
+/index.php/ajax/product/quickview/id/17/ 1 581 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/12/ 1 9076 0 0
+/index.php/admin/widget_instance/index/key/1a3bbb50af96a4c975da0503b2bf70dd/ 1 12574 0 0
+/index.php/admin/catalog_category/edit/id/9/key/c856c4a00c376a8d13655bcd3da9f473/ 1 6608 0 0
+/index.php/flooring/natural-stone/marble.html 2 22248 0 0
+/index.php/kitchen-bath/mosaics-blends.html 1 14707 1 0
+/index.php/privacy-policy-cookie-restriction-mode 1 68133 0 0
+/index.php/admin/promo_catalog/index/key/f44544431693eb346ba92e383f640fc4/ 1 12981 0 0
+/index.php/flooring/natural-stone/granite.html 4 98077 0 2
+/index.php/admin/system_config/edit/section/cms/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 23646 0 0
+/index.php/backsplashideas 1 12547 0 0
+/index.php/admin/report_review/product/key/b3dadfda49245dc1cb4ea286632cc14e/ 1 12138 0 0
+/index.php/popular-series/arabescato-carrara/arabescato-carrara-interwoven-12x12-polished.html 2 34851 0 1
+/index.php/admin/cms_page/edit/page_id/28/key/ae25016b03d623cf7b3186da60ab0d51/ 1 15448 0 0
+/index.php/landscape/strictly-outdoor/stepping-stone.html 2 22275 0 0
+/index.php/igallery/adminhtml_banner/index/key/9b9797fb20bd8ab7b4cf48c927240856/ 6 82364 0 0
+/index.php/kitchen-bath/mosaics-blends/travertine-mosaics.html 1 11139 0 0
+/index.php/checkout/onepage/progress/ 3 535 0 1
+/index.php/fireplacescene 1 12454 0 0
+/index.php/admin/system_config/edit/section/reports/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 23768 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/ 1 7375 0 0
+/index.php/admin/customer/index/key/d1314092097bcc8886030caa9a774411/ 1 16594 0 0
+/index.php/admin/system_config/edit/section/trans_email/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 23850 0 0
+/index.php/admin/cms_page/edit/page_id/32/key/ae25016b03d623cf7b3186da60ab0d51/ 1 15445 0 0
+/index.php/checkout/onepage/saveMethod/ 1 22 0 0
+/index.php/flooring/baseboard-threshold-windowsill/porcelain-ceramic.html 1 11136 0 1
+/index.php/admin/cms_block/edit/block_id/18/key/47145c8db02e76a8f832ec3762047347/ 4 56427 0 0
+/index.php/admin/cms_wysiwyg_images/treeJson/key/0b1377e02748af7a7736ce2e6afb1b3a/ 6 516 0 0
+/index.php/admin/system_config/edit/section/newsletter/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 23774 0 0
+/index.php/igallery/adminhtml_banner/edit/id/3/key/16798bd110defd1231a752e523608208/ 1 14530 0 0
+/index.php/popular-series/crema-marfil-marble.html 1 11975 1 1
+/index.php/popular-series/oddysey-2-hexagon-12x12-interlocking-mosaic.html 1 17923 0 1
+/index.php/landscape.html 8 100716 0 0
+/index.php/visualizers/ 1 11802 0 0
+/index.php/admin/cms_wysiwyg_images/contents/type/file/key/fd17731e3d60c1cbc266971e54ffefef/ 1 1016 0 0
+/index.php/kitchen-bath/arizona-5-8x2-blend-mosaic.html 1 17703 0 1
+/index.php/admin/system_config/index/key/075222d3082e7b0b19fdd6b20243b082/ 2 62881 0 1
+/js/blank.html 1 0 0 0
+/index.php/admin/catalog_category/save/key/7a9d629a534ef4ac55fb4ffc2ceabea7/id/8/ 1 177 0 0
+/index.php/admin/cms_block/edit/block_id/19/key/47145c8db02e76a8f832ec3762047347/ 2 28206 0 0
+/index.php/captcha/refresh/ 2 220 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/8/ 1 6737 0 0
+/index.php/checkout/onepage/ 2 69173 0 0
+/index.php/admin/report_review/customer/key/89202578f461e37583b69c4937e08279/ 1 12056 0 0
+/index.php/admin/catalog_category/save/key/7a9d629a534ef4ac55fb4ffc2ceabea7/id/103/ 1 178 0 0
+/index.php/popular-series/tuscany-classic.html 2 24854 2 2
+/index.php/kitchen-bath/trims-borders/dome-moldings.html 1 11139 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/15/ 1 6623 0 0
+/index.php/catalog/seo_sitemap/category 1 75891 0 1
+/index.php/fromquarrytofloor 2 24955 0 1
+/index.php/admin/admin_application/index/key/38595dfdb7efb9d91204db22599451d7/ 1 11907 0 0
+/js/tiny_mce/plugins/advimage/image.htm 1 2485 0 0
+/media/catalog/category/ 1 289 0 0
+/index.php/odyssey-subway-3-6-stainless-steel-mosaic.html 2 33791 1 1
+/index.php/bathroomscene 4 50431 0 0
+/index.php/admin/system_config/edit/section/igallery/key/36a206b78f8e6ce5489ac202ea19a48c/ 2 49795 0 0
+/index.php/ajax/product/quickview/id/13/ 1 575 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/103/ 3 19737 0 0
+/js/tiny_mce/themes/advanced/link.htm 1 922 0 0
+/index.php/admin/system_email_template/edit/id/2/key/30ce4dd9a2a57114ef14ab624c1793f8/ 1 15812 0 0
+/index.php/admin/process/edit/process/7/key/07eddfd907b7277a42eed30981f6e1b7/ 1 12202 0 0
+/index.php/admin/cms_page/index/key/81551a963d11aa71fa29791f3133d903/ 5 69972 0 0
+/index.php/kitchen-bath/stainless-steel-magic-pattern-mosaic-12x12.html 1 16645 0 1
+/index.php/popular-series/white-cloud.html 1 11107 0 0
+/index.php/poolsidescene 1 12437 1 1
+/index.php/admin/system_design/edit/id/1/key/8080d781cb8bf7a1bb8ba985b6fe2960/ 1 12508 0 0
+/index.php/popular-series/stainless-steel.html 3 44268 2 1
+/index.php/admin/catalog_category/save/key/7a9d629a534ef4ac55fb4ffc2ceabea7/id/9/ 1 177 0 0
+/skin/adminhtml/default/default/media/uploader.swf 1 180912 0 0
+/index.php/admin/system_config/edit/section/general/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 31437 0 0
+/index.php/admin/catalog_category/edit/id/8/key/c856c4a00c376a8d13655bcd3da9f473/ 2 13582 0 0
+/index.php/admin/cms_block/edit/block_id/20/key/47145c8db02e76a8f832ec3762047347/ 1 14107 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/Z3VhcmFudGVlLnBuZw--/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 111258 0 0
+/index.php/admin/system_config/edit/section/advanced/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 25187 0 0
+/index.php/admin/system_config/edit/section/design/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 27287 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/b2swMS5wbmc-/key/cbb6cd6e8f8a54ee1ff775df35bf982c/ 9 17928 0 0
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/7/ 1 8010 0 0
+/index.php/admin/cms_block/edit/block_id/17/key/47145c8db02e76a8f832ec3762047347/ 6 84727 0 0
+/index.php/admin/notification/index/key/c71aa77d04796dd256471c54356b23d8/ 1 12677 0 0
+/index.php/landscape/strictly-outdoor/paver-pre-packed-kites.html 2 22280 0 0
+/index.php/admin/system_email_template/preview/id/2/key/2aa2f80328c5f1f457078d11cc249d93/ 1 1252 0 0
+/index.php/popular-series/tuscanyscabas.html 1 12150 1 0
+/index.php/admin/catalog_category/save/id/8/key/7a9d629a534ef4ac55fb4ffc2ceabea7/ 1 177 0 0
+/index.php/checkout/onepage/saveBilling/ 1 596 0 0
+/index.php/admin/catalog_category/index/key/95b9fcc1a68d35b6d1dd67539be4449d/ 1 24284 0 0
+/index.php/admin/catalog_category/categoriesJson/key/3a23d161d8e0a8d183440a08534b4ce0/ 1 234 0 0
+/index.php/admin/system_config/edit/section/system/key/2c9234625dc6ed67fc2ebee11bbfc39c/ 1 31358 0 0
+/index.php/admin/cms_wysiwyg_images/onInsert/key/b2056c1f7d3198928b63adde54097916/ 7 1100 0 0
+/index.php/admin/process/list/key/1525bff4d165a1d4659657c241a78b54/ 3 39440 0 0
+/index.php/admin/system_config/edit/section/cms/key/36a206b78f8e6ce5489ac202ea19a48c/ 1 23642 0 0
+/index.php/admin/customer_group/edit/id/3/key/6ffdf80a00e7f74ff4a19bbd4767c196/ 1 12025 0 0
+/index.php/kitchenroomscene 4 50251 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvbW9zdC1wb3AtZmVhLWltZzIuanBnIn19/key/6b24db0a7f9875c1951624472756bc87/ 5 46695 0 0
+/index.php/testimonials/ 1 11484 0 0
+/index.php/admin/dashboard/index/key/21b9e0a2155694a78c4b7d9bc797366b/ 3 40884 0 0
+/index.php/admin/cms_wysiwyg_images/contents/type/image/key/fd17731e3d60c1cbc266971e54ffefef/ 8 7782 0 0
+/index.php/igallery/adminhtml_banner/edit/id/1/key/16798bd110defd1231a752e523608208/ 3 43263 0 0
+/index.php 1 15532 0 1
+/index.php/oddysey-pyramids-12x12-interlocking-blend.html 3 51596 0 0
+/index.php/slider/adminhtml_slider/edit/id/1/key/7179ff31f8c4895c5fbcdf1ef2dfe50f/ 2 25758 0 0
+/customer/account/create/%20 2 25698 2 2
+/index.php/admin/catalog_category/edit/key/c856c4a00c376a8d13655bcd3da9f473/id/9/ 1 6552 0 0
+END_SIDER

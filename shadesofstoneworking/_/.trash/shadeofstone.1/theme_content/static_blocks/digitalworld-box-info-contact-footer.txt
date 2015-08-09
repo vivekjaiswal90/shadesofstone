@@ -1,0 +1,36 @@
+
+<div class="box-info-footer contact-footer">
+<h2 class="title-box-info">Contact Us</h2>
+<div class="box-info-content">
+<ul class="first contact-content">
+<li class="phone-number">
+<div class="left-content"><img src="{{skin url='images/icon-phone-number.png'}}" alt="" width="34" /></div>
+<div class="right-content">
+<p>000-000-0000</p>
+<p>012-345-6789</p>
+</div>
+</li>
+<li class="mail-contact">
+<div class="left-content"><img src="{{skin url='images/icon-mail-contact.png'}}" alt="" width="34" /></div>
+<div class="right-content">
+<p>digital.store@gmail.com</p>
+<p>store.digital@gmail.com</p>
+</div>
+</li>
+<li class="skype-contact">
+<div class="left-content"><img src="{{skin url='images/icon-skype.png'}}" alt="" width="34" /></div>
+<div class="right-content">
+<p>store.digital</p>
+<p>digital.store</p>
+</div>
+</li>
+</ul>
+<ul class="social-network-link">
+<li class="first item facebook"><a title="Facebook" href="#"><span>facebook</span></a></li>
+<li class="item twitter"><a title="Twitter" href="#"><span>twitter</span></a></li>
+<li class="item blog"><a title="Blog" href="#"><span>blog</span></a></li>
+<li class="item google-plus"><a title="Google Plus" href="#"><span>google-plus</span></a></li>
+<li class="last item vimeo"><a title="Vimeo" href="#"><span>vimeo</span></a></li>
+</ul>
+</div>
+</div>

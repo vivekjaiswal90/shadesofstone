@@ -1,0 +1,30 @@
+<div class="block block-layered-nav">
+    <!--
+		<div class="block-title-layered-nav">
+        <strong><span></span></strong>
+    </div>
+		-->
+    <div class="block-content-layered-nav">
+        <div id="narrow-by-list">
+						<div class="block-options-list">
+							<div class="block-title">
+								<strong><span>Category</span></strong>
+							</div>
+							<div class="block-content">
+									<ul>
+																															<li>
+													<a href="http://shadesofstone.com/index.php/flooring/as-per-application/patterns.html?___SID=U">Patterns</a> (0)
+											</li>
+																																										<li>
+													<a href="http://shadesofstone.com/index.php/flooring/as-per-application/rectangular-tiles.html?___SID=U">Rectangular Tiles</a> (0)
+											</li>
+																																										<li>
+													<a href="http://shadesofstone.com/index.php/flooring/as-per-application/square-tiles.html?___SID=U">Square Tiles</a> (0)
+											</li>
+																													</ul>
+							</div>
+						</div>
+        </div>
+        <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+[28-Jan-2015 04:59:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/jbratton/public_html/client/shadesofstones/media/catalog/category/' does not exists.' in /home/jbratton/public_html/client/shadesofstones/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/jbratton/public_html/client/shadesofstones/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/jbratton/...')
+#1 /home/jbratton/public_html/client/shadesofstones/get.php(165): sendFile('/home/jbratton/...')
+#2 {main}
+  thrown in /home/jbratton/public_html/client/shadesofstones/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[31-Jan-2015 05:42:22 UTC] PHP Parse error:  syntax error, unexpected 'back' (T_STRING) in /home/jbratton/public_html/client/shadesofstones/app/code/local/Inchoo/SimpleContact/controllers/IndexController.php on line 58
+[31-Jan-2015 06:04:32 UTC] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/jbratton/public_html/client/shadesofstones/app/code/local/Inchoo/SimpleContact/controllers/IndexController.php on line 54
+[10-Feb-2015 07:17:58 UTC] PHP Parse error:  syntax error, unexpected '$quote' (T_VARIABLE), expecting function (T_FUNCTION) in /home/jbratton/public_html/client/shadesofstones/app/code/local/Magentix/Fee/Model/Fee.php on line 14
+[14-Mar-2015 23:14:27 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 34964 bytes) in /home/shadesofstone/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[16-Mar-2015 00:20:54 UTC] PHP Fatal error:  Call to a member function getSortedChildren() on a non-object in /home/shadesofstone/public_html/app/design/frontend/default/default/template/catalog/product/list.phtml on line 97
+[16-Mar-2015 00:22:25 UTC] PHP Fatal error:  Call to a member function getSortedChildren() on a non-object in /home/shadesofstone/public_html/app/design/frontend/default/default/template/catalog/product/list.phtml on line 97
+[18-Mar-2015 07:21:54 UTC] PHP Fatal error:  Call to a member function getSortedChildren() on a non-object in /home/shadesofstone/public_html/app/design/frontend/default/default/template/catalog/product/list.phtml on line 97
+[18-Mar-2015 13:05:52 UTC] PHP Fatal error:  Call to a member function getSortedChildren() on a non-object in /home/shadesofstone/public_html/app/design/frontend/default/default/template/catalog/product/list.phtml on line 97
+[19-Mar-2015 11:02:36 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:03:06 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:03:14 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:03:56 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:04:07 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:04:21 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:04:30 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:04:39 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:04:55 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:05:10 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 11:05:28 UTC] PHP Parse error:  syntax error, unexpected 'Mage' (T_STRING), expecting function (T_FUNCTION) in /home/shadesofstone/public_html/app/code/core/Mage/Usa/Model/Shipping/Carrier/Ups.php on line 40
+[19-Mar-2015 15:27:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 15444 bytes) in /home/shadesofstone/public_html/lib/Varien/Image/Adapter/Gd2.php on line 60
+[21-Mar-2015 11:47:49 UTC] PHP Fatal error:  Call to a member function getSortedChildren() on a non-object in /home/shadesofstone/public_html/app/design/frontend/default/default/template/catalog/product/list.phtml on line 97
+[27-Mar-2015 19:02:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/shadesofstone/public_html/media/catalog/category/' does not exists.' in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/shadesofstone/public_html/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/shadesofs...')
+#1 /home/shadesofstone/public_html/get.php(165): sendFile('/home/shadesofs...')
+#2 {main}
+  thrown in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[28-Mar-2015 12:55:18 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/shadesofstone/public_html/media/catalog/category/' does not exists.' in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/shadesofstone/public_html/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/shadesofs...')
+#1 /home/shadesofstone/public_html/get.php(165): sendFile('/home/shadesofs...')
+#2 {main}
+  thrown in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php on line 96
+[02-Apr-2015 18:26:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'File '/home/shadesofstone/public_html/media/catalog/category/' does not exists.' in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php:96
+Stack trace:
+#0 /home/shadesofstone/public_html/get.php(205): Varien_File_Transfer_Adapter_Http->send('/home/shadesofs...')
+#1 /home/shadesofstone/public_html/get.php(165): sendFile('/home/shadesofs...')
+#2 {main}
+  thrown in /home/shadesofstone/public_html/lib/Varien/File/Transfer/Adapter/Http.php on line 96

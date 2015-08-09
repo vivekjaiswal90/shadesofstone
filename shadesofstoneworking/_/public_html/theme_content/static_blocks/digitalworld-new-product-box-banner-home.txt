@@ -1,0 +1,2 @@
+
+<div class="box-new-product-banner">{{block type="catalog/product_new" name="home.catalog.product.new" alias="product_homepage" template="catalog/product/new.phtml" _productsCount="6"}}</div>

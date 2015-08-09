@@ -1,0 +1,57 @@
+<?php
+session_start();
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<script type="text/javascript">
+
+function showCompare(url){
+
+Dialog.confirm($('login').innerHTML, {className:"alphacube",hideEffect:Element.hide,showEffect:Element.show, width:400, okLabel: "submit", cancelLabel: "cancel", onOk:function(win){ if(document.getElementById("phoneno").value=="" || document.getElementById("email").value==""){  $('login_error_msg').innerHTML='Please Fill Information'; $('login_error_msg').show(); Windows.focusedWindow.updateHeight(); new Effect.Shake(Windows.focusedWindow.getId()); return false;}else if(!document.getElementById("phoneno").value.match(/^\d{10}$/) || !document.getElementById("email").value.match(/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/)){$('login_error_msg').innerHTML='wrong email or phone number'; $('login_error_msg').show(); Windows.focusedWindow.updateHeight(); new Effect.Shake(Windows.focusedWindow.getId()); return false;}
+else
+{
+window.location='<?php echo $this->getCheckoutUrl() ?>'+"?email="+document.getElementById("email").value+"&phone="+document.getElementById("phoneno").value;}}}); 
+}
+</script>	
+<?php if ($this->isPossibleOnepageCheckout()):?>
+    <button type="button" title="<?php echo $this->__('Proceed to Checkout') ?>" class="button btn-proceed-checkout btn-checkout<?php if ($this->isDisabled()):?> no-checkout<?php endif; ?>"<?php if ($this->isDisabled()):?> disabled="disabled"<?php endif; ?> onclick="showCompare();"><span><span><?php echo $this->__('Proceed to Checkout') ?></span></span></button>
+	
+
+
+<?php endif?>
+
+<div id="login" style="display:none">
+ <p><span id='login_error_msg' class="login_error" style="display:none">&nbsp;</span></p>
+ 
+ <div style="clear:both">
+ 
+ </div> <p><span class="login_label">Phone No</span> <span class="login_input"><input type="text"/ id="phoneno"></span></p> 
+ <div style="clear:both">
+ </div> <p><span class="login_label">E-mail</span> <span class="login_input"><input type="text" id="email"/></span></p>
+
+<div style="clear:both">
+ 
+</div>
+	<?php $_SESSION["info"]="on";?>

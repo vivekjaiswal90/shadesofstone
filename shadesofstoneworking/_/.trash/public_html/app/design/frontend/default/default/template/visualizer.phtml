@@ -1,0 +1,11 @@
+<?php $cat_id = Mage::getModel('catalog/layer')->getCurrentCategory()->getId(); ?>
+<?php $category = Mage::getModel('catalog/category')->load($cat_id); ?>
+<?php //echo $vcat=$category->getName(); ?>
+
+<a href="<?php echo $this->getUrl('visualizers'); ?>">
+<?php
+
+	echo $this->getLayout()->createBlock('cms/block')->setBlockId('KitchenVisualizerimage')->toHtml();
+	echo "visualizers";
+?>
+</a>

@@ -1,0 +1,255 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<section class="bot-foot-frame">
+
+    <section class="bot-frame">
+        <section class="container">
+	
+            <div class="row">
+			
+                <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="bot-box">
+                        <div class="row">
+						
+                            <article class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
+								<div class="full-width">
+                                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('company')->toHtml(); ?>
+								</div>
+								
+								<div class="full-width">
+								 <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('resoures')->toHtml(); ?>
+								 </div>
+								
+								<div class="full-width">
+								 <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('Visualiser')->toHtml(); ?>
+								</div>
+                            </article>
+                           
+                            <article class="col-lg-6 col-md-5 col-sm-12 col-xs-12">
+							
+								
+								
+								<div class="full-width-02">
+                                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('tiles')->toHtml(); ?>
+								</div>
+								<div class="full-width-02">
+                                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('Contactus')->toHtml(); ?>
+                                </div>
+                               
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>    
+    </section>
+    
+    
+    
+    <section class="foot-frame">
+    	<section class="container">
+        	<div class="row">
+            	<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                	<div class="row">
+                    	<article class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        	<div class="left-foot">
+                            	<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('paymentoption')->toHtml(); ?>
+								
+                            </div>
+                        </article>
+                        <article class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        	<div class="right-foot">
+							
+                            	<!--<ul class="menu">
+								
+                                	<li><a href="#">Home</a></li>
+                                    <li><a href="#">Flooring</a></li>
+                                    <li><a href="#">Landscape</a></li>
+                                    <li><a href="#">Kitchen &amp; Bath</a></li>
+                                    <li><a href="#">DYI</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>-->
+								
+                                <p><?php echo $this->getCopyright() ?></p>
+                            </div>
+                        </article>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </section>
+    
+    
+</section>
+
+
+		<!------ bottom Footer Frame Ends --------->
+        
+        
+        
+        
+        
+ 
+ 
+ 
+ 
+ <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
+		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
+        	<div class="popup-frame-box">
+				<ul class="cd-switcher">
+				
+                    <li><input id="radioImageBased1" type="radio" name="radioImageBased" value="1"><label>I have an account</label></li>
+                    <li><input id="radioImageBased2" type="radio" name="radioImageBased" value="2"><label>I don't have an account</label></li>
+                </ul>
+
+				<div id="cd-login"> <!-- log in form -->
+                    <div class="heading">
+                        <h1>LOGIN</h1>
+						
+				
+
+                    </div>
+				 <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('customer/form/login.phtml')->toHtml();?>
+				 
+				 <?php //echo $this->getChildHtml('customer_form_register2'); ?>
+                    <?php //echo $this->getChildHtml('customer_form_register'); ?>
+					
+                    <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                </div> <!-- cd-login -->
+
+				<div id="cd-signup"> <!-- sign up form -->
+                    <div class="heading">
+                        <h1>CREATE ACCOUNT</h1>
+						
+                    </div>
+					 <?php //echo $this->getChildHtml('customer_form_register'); ?>
+					 
+					 
+					 
+					 
+                    <form class="cd-form">
+                    	<p class="fieldset">
+                            <span class="text"><input type="text" placeholder="E-mail"></span>
+                        </p>
+                        
+                        <p class="fieldset">
+                        	<span class="text"><input type="text" placeholder="First Name"></span>
+                        </p>
+                        
+                        <p class="fieldset">
+                        	<span class="text"><input type="text" placeholder="Last Name"></span>
+                        </p>
+    
+                        <p class="fieldset">
+                        	<span class="text"><input type="text"  placeholder="Password"></span>
+                        </p>
+                        
+                        <p class="fieldset">
+                            <span class="text"><input type="text"  placeholder="Retype Password"></span>
+                        </p>
+    
+                        <p class="fieldset">
+                        	<span class="term-check">
+                              <input type="checkbox" id="accept-terms">
+                              <label for="accept-terms">Yes I'd like to receive emails about new products, special offers and industry news from Shades of Stone</label>
+                            </span>
+                            <span class="btn"><input type="submit" value="create"></span>
+                        </p>
+                    </form>
+   
+                    <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                </div> <!-- cd-signup -->
+
+				<div id="cd-reset-password"> <!-- reset password form -->
+                	<div class="heading">
+                        <h1>Password Reset</h1>
+                    </div>
+                    <p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
+    
+                    <form class="cd-form">
+                        <p class="fieldset">
+                            <span class="text"><input type="text" placeholder="E-mail"></span>
+                        </p>
+    
+                        <p class="fieldset">
+                            <span class="btn btn-2"><input  type="submit" value="Reset password"></span>
+                        </p>
+                    </form>
+    
+                    <p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
+                </div> <!-- cd-reset-password -->
+			<a href="#" class="cd-close-form">Close</a>
+            </div>
+		</div> <!-- cd-user-modal-container -->
+	</div> <!-- cd-user-modal -->
+    
+    
+   <?php  $pageID = Mage::getBlockSingleton('cms/page')->getPage()->getIdentifier(); ?>
+   <?php if($pageID=="home")
+   {?>
+   <?php echo $this->getChildHtml('jsfooter') ?>
+  
+	<?php }?>
+
+
+
+<script>
+function init() {
+window.addEventListener('scroll', function(e){
+var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+shrinkOn = 550 ,
+header = document.querySelector("header");
+if (distanceY > shrinkOn) {
+classie.add(header,"smaller");
+} else {
+if (classie.has(header,"smaller")) {
+classie.remove(header,"smaller");
+}
+}
+});
+}
+window.onload = init();
+</script>
+
+
+<script src="<?php echo $this->getSkinUrl('js/shadesofstones/main.js')?>"></script>
+<script src="<?php echo $this->getSkinUrl('js/shadesofstones/script.js')?>"></script>
+<script src="<?php echo $this->getSkinUrl('js/shadesofstones/new-input.js')?>"></script>
+
+
+   
+
+
+
+
+
+
+
+
+
+

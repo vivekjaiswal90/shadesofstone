@@ -1,0 +1,9 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/mapper/VolGroup00-root
+                              4          0          0                     3          0          0           
+/dev/mapper/VolGroup01-home
+                         386900          0          0                 26423     250000     250000           
+/dev/mapper/VolGroup01-usr
+                              0          0          0                     0          0          0           
+/dev/mapper/VolGroup00-var
+                             44          0          0                    15          0          0           

@@ -1,0 +1,25 @@
+.checkbox, .radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	background: url(radio.png) no-repeat;
+}
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	padding:0 20px 0 40px;;
+	color: #fff;
+	font: 12px/40px arial,sans-serif;
+	background: url(../../images/shadesofstones/select.png) no-repeat;
+	background-size:100% 100%;
+	overflow: hidden;
+	width:100%;
+	left:0;
+	top:0;
+}

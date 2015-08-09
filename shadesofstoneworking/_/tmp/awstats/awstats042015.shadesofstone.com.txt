@@ -1,0 +1,1359 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /home/shadesofstone/tmp/awstats/awstats.shadesofstone.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2706                
+POS_VISITOR 34355               
+POS_DAY 39184               
+POS_DOMAIN 3646                
+POS_LOGIN 4038                
+POS_ROBOT 4193                
+POS_WORMS 4756                
+POS_EMAILSENDER 4887                
+POS_EMAILRECEIVER 5030                
+POS_SESSION 39643               
+POS_SIDER 39855               
+POS_FILETYPES 5165                
+POS_DOWNLOADS 5451                
+POS_OS 5499                
+POS_BROWSER 5807                
+POS_SCREENSIZE 6651                
+POS_UNKNOWNREFERER 6725                
+POS_UNKNOWNREFERERBROWSER 6969                
+POS_ORIGIN 7133                
+POS_SEREFERRALS 7273                
+POS_PAGEREFS 7437                
+POS_SEARCHWORDS 7585                
+POS_KEYWORDS 7755                
+POS_MISC 2369                
+POS_ERRORS 7836                
+POS_CLUSTER 3894                
+POS_SIDER_404 7990                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150429044631 1045 270149 11022747549345
+FirstTime 20150415101842
+LastTime 20150429010257
+LastUpdate 20150429050053 1045 0 1045 0 0
+TotalVisits 183                 
+TotalUnique 96                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 129                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 84 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 50 190 3899705 168 285 5015463
+1 47 175 4845156 122 216 4141872
+2 64 249 4159551 134 170 3190645
+3 51 252 3593787 86 143 2946064
+4 74 230 6758565 152 247 4917807
+5 139 550 14711155 105 229 2985653
+6 96 634 11928411 142 182 2794413
+7 314 688 17315600 199 230 3561509
+8 108 809 18648335 115 159 2580207
+9 362 1680 38397617 246 397 7215035
+10 287 970 23176594 248 300 5091265
+11 186 1107 24084223 152 227 4052428
+12 67 619 14818091 127 166 2980494
+13 13 388 7309202 101 190 3289048
+14 88 308 6865286 89 106 1807745
+15 42 255 3734732 99 171 4082805
+16 14 59 1559289 100 110 1779402
+17 165 313 3597694 110 156 2833582
+18 32 161 3069269 120 148 2510230
+19 5 73 1449240 87 115 2062229
+20 11 174 2379935 93 240 5398278
+21 61 183 2729418 71 111 2385554
+22 62 239 5196083 113 242 5669272
+23 19 322 5785546 93 113 1974254
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+jp 1744 3408 82010539
+in 371 4472 88980964
+us 175 2578 55715106
+tr 28 28 105950
+cn 22 49 927579
+zz 7 7 204746
+de 4 44 1010665
+ua 3 3 51291
+fr 2 2 84308
+gb 1 1 40161
+ca 0 36 881175
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+spider 872 25577587 20150429044631 0
+googlebot 250 8037433 20150429012854 0
+bingpreview 132 3311699 20150425042949 0
+bot[\s_+:,\.\;\/\\-] 81 3014246 20150429030621 0
+google[_+\s]web[_+\s]preview 49 1168490 20150428112549 0
+no_user_agent 6 45460 20150426130548 0
+crawl 3 99768 20150424163729 0
+googlebot\-image 2 86 20150420062955 0
+php 2 87999 20150425024457 0
+unknown 2 2585 20150415151142 2
+ia_archiver 1 40161 20150419151826 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 1391 32389316 0 0
+png 175 522680 0 0
+file 6 396304 0 0
+htm 3 13985 0 0
+swf 2 474088 0 0
+php 28 727861 0 0
+html 2081 70134228 0 0
+js 3498 94726286 0 0
+jpg 1474 22831386 0 0
+Unknown 237 6363010 0 0
+gif 1733 1433340 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+linuxandroid 121 31
+macintosh 1 1
+winlong 268 7
+winxp 74 11
+ios_iphone 1092 97
+macosx9 59 2
+win8 72 18
+ios_ipad 6 0
+macosx7 34 0
+winnt 1 1
+linuxubuntu 2230 142
+linux 41 1
+win7 2119 264
+macosx 8 8
+bsdfreebsd 1 1
+Unknown 13 13
+win8.1 4488 1760
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 42
+msie6.0 6 6
+chrome38.0.2125.104 7 0
+chrome34.0.1847.137 6 6
+android 28 28
+chrome29.0.1547.0 1 1
+msie5.17 1 1
+chrome39.0.2171.95 6 6
+chrome36.0.1985.125 12 12
+firefox34.0 1 1
+safari6.1.6 34 0
+firefox1.0.4 1 1
+firefox31.0 57 2
+iphone 31 1
+chrome39.0.0.0 93 3
+firefox6.0.2 32 5
+chrome42.0.2311.90 3367 901
+chrome39.0.2171.65 1 1
+chrome41.0.2272.101 61 6
+msie7.0 266 5
+chrome41.0.2272.76 2230 142
+safari8.0 1071 100
+msie9.0 248 23
+Unknown 12 12
+firefox1.4 1 1
+chrome44.0.2376.0 113 6
+chrome15.0.860.0 1 1
+chrome41.0.2272.118 306 38
+chrome44.0.2369.0 58 3
+msie1.5 1 1
+msie11.0 168 28
+firefox33.0 1 1
+mozilla 1 1
+firefox37.0 1824 974
+firefox22.0 1 1
+chrome32.0.1700.76 342 6
+firefox6.0 8 8
+chrome39.0.2171.99 1 1
+firefox3.6.3 1 1
+chrome41.0.2228.0 1 1
+firefox36.0 5 5
+firefox35.0 182 16
+safari 41 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Hivemind 20150427064915
+Mozilla/5.0_(compatible;_Houzz/0.1;__http://www.houzz.com/) 20150422135247
+Shockwave_Flash 20150423085236
+Zend_XmlRpc 20150421000305
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Hivemind 20150427064915
+Shockwave_Flash 20150423085236
+Zend_XmlRpc 20150421000305
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 525 744
+From1 0 0
+From2 5 5
+From3 0 0
+From4 1827 9879
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 3 3
+bing 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+shades+of+stone 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+shades 2
+of 2
+stone 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 6 4
+503 724 1352285
+302 601 0
+206 16 237623
+500 21 1342
+404 1800 42198786
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 466
+//magmi2/web/plugin_upload.php 2 -
+/index.php/checkout/cart/buy%20slater 2 -
+/index.php/oddysey-perla-12x12-blend.html 3 -
+/index.php/checkout/cart/privacy%20policy 2 -
+/admin.php 2 -
+/images/most-pop-fea-img3.jpg 5 http://shadesofstone.com/
+/bathroom%20visualizer 3 -
+/skin/frontend/default/default/css/madisonisland.css 2 -
+/index.php/review/product/list/id/11/customer/account/create/ 1 -
+/index.php/catalogsearch/result/buy%20marble%20tiles 3 http://shadesofstone.com/index.php/catalogsearch/result/
+/index.php/flooring/natural-stone/faq 1 -
+/index.php/returns%20and%20refund 3 -
+/index.php/checkout/cart/room%20cene%20visualizer 1 -
+//magmi1/web/plugin_upload.php 2 -
+/media/wysiwyg/shipping01.png 1 -
+/index.php/meshed%20pebbles 4 -
+/skin/frontend/default/default/js/app.js 6 http://shadesofstone.com/index.php/tiles.html
+/js/plugin.php 3 -
+/index.php/kitchenvisualizer 2 -
+/index.php/checkout/cart/contact%20us 1 -
+/index.php/review/product/list/id/11/category/6/ 1 -
+/index.php/kitchen-bath/trims-borders/rail-molding.html 1 -
+/index.php/flooring/as-per-application/room%20cene%20visualizer 1 -
+/index.php/flooring/ledger%20panel%20visualizer 1 -
+/index.php/flooring/as-per-application/terms%20of%20use 1 -
+/index.php/flooring/privacy%20policy 1 -
+/media/wysiwyg/cache.php 1 http://shadesofstone.com/media/wysiwyg/12345.php
+/index.php/landscape/indoor-outdoors/ledger-panel/golden-honey-ledger-panel-6x24-split-face.html 1 -
+/skin/frontend/default/default/js/shadesofstones/jquery-anchor.js 6 http://shadesofstone.com/index.php/landscape/indoor-outdoors/ledger-panel.html
+/index.php/catalogsearch/buy%20ceramic%20and%20procelain 1 http://shadesofstone.com/index.php/catalogsearch/edge%20profile%20visualizer
+/index.php/kitchen-bath/oddysey-shores-12x12-interlocking-blend.html 1 -
+/index.php/flooring/as-per-application/edge%20profile%20visualizer 1 -
+/shop/index.php/admin 1 http://shadesofstone.com/shop/index.php/admin
+/index.php/popular-series.html 14 -
+/index.php/popular-series/california-gold-slate.html 3 -
+//magmi3/web/plugin_upload.php 2 -
+/index.php/oddysey-subway-2-x4-stainless-steel-mosaic.html 3 -
+/index.php/checkout/cart/ledger%20panel%20visualizer 1 -
+/index.php/flooring/as-per-application/glazed.html 1 -
+/index.php/tiles/golden-white.html 2 -
+/index.php/flooring/as-per-application/caring%20and%20cleaning 1 -
+/index.php/checkout/cart/industry%20glossary 2 -
+/index.php/seo_sitemap 1 -
+/index.php/flooring/customer%20service 1 -
+/images/most-pop-fea-img1.jpg 5 http://shadesofstone.com/
+/index.php/kitchen-bath/mosaics-blends/metallix-brick-1x2-interlocking-blend.html 2 -
+/index.php/flooring/buy%20oynxtiles 1 -
+/skin/frontend/default/default/js/shadesofstones/modernizr.custom.46884.js 4 http://shadesofstone.com/index.php/landscape/indoor-outdoors/ledger-panel.html
+/index.php/flooring/kitchen%20visualizer 1 -
+/index.php/kitchen-bath/mosaics-blends/subway-tiles/oddysey-subway-2-x4-stainless-steel-mosaic.html 1 -
+/index.php/room%20cene%20visualizer 5 http://shadesofstone.com/index.php/
+/skin/frontend/default/default/testimonialmanager/testimonialmanager.css 2 -
+/skin/frontend/default/default/sm/searchboxpro/js/jquery-1.8.2.min.js 3 http://shadesofstone.com/index.php/review/product/list/id/5/
+/wp-login.php 2 http://shadesofstone.com/wp-login.php
+/index.php/flooring/room%20cene%20visualizer 1 -
+/index.php/images/most-pop-fea-img9.jpg 2 http://shadesofstone.com/index.php/
+/privacy%20policy 6 -
+/index.php/checkout/cart/room%20scenes 1 -
+/skin/frontend/default/default/my_igallery/css/prettyPhoto.css 1 -
+//magmi_old/web/magmi_upload.php 2 -
+/index.php/buy%20ceramic%20and%20procelain 3 -
+/index.php/flooring/buy%20slater 1 -
+/index.php/popular-series/ostrich-gray.html 3 -
+/index.php/buy%20slater 4 -
+/index.php/checkout/cart/terms%20of%20use 2 -
+/advanced%20search 3 -
+//magmi4/web/plugin_upload.php 2 -
+/index.php/popular-series/arabescato-carrara.html 11 -
+/index.php/checkout/cart/caring%20and%20cleaning 2 -
+/index.php/flooring/edge%20profile%20visualizer 1 -
+/buy%20baseboards 2 -
+/index.php/popular-series/copper.html 3 -
+/index.php/kitchen-bath/mosaics-blinds/marbles-mosaics.html 3 -
+/index.php/oddysey-shapes-4x4-mosaic.html 4 -
+/index.php/kitchen-bath/glass-metal-tiles/metal-glass.html 2 -
+/index.php/sales/guest/sales/guest/form 1 http://shadesofstone.com/index.php/sales/guest/form
+/index.php/kitchen-bath/glass-metal-tiles/glass-stone-blend.html 10 -
+/index.php/flooring/contact%20us 1 -
+//magmi11/web/magmi_upload.php 2 -
+/index.php/catalogsearch/room%20cene%20visualizer 2 -
+/index.php/catalog/product_compare/add/product/21/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/ajax/product/quickview/id/2/ 1 -
+/index.php/popular-series/stainless-steel/magic-steel-and-marble-glass-12x12-blend.html 1 -
+/magmi_1/web/magmi.php 1 http://shadesofstone.com/magmi_1/web/magmi.php
+/skin/frontend/default/default/testimonialmanager/jquery.bxslider.css 2 -
+/images/most-pop-fea-img5.jpg 5 http://shadesofstone.com/
+//magmi14/web/magmi_upload.php 2 -
+/index.php/catalogsearch/terms%20of%20sale 1 http://shadesofstone.com/index.php/catalogsearch/advanced
+/index.php/flooring/natural-stone/montauk-blue-12x12-gauged.html 1 -
+/index.php/checkout/cart/buy%20granite%20tiles 1 -
+/index.php/tiles/tuscanyscabas.html 5 -
+/index.php/checkout/cart/faq 1 -
+/skin/frontend/default/default/js/minicart.js 6 http://shadesofstone.com/index.php/tiles.html
+/room%20cene%20visualizer 4 -
+/media/slider/bnr-frame-bg2.jpg 1 -
+/index.php/catalogsearch/faq 1 http://shadesofstone.com/index.php/catalogsearch/advanced
+/index.php/copyright 3 -
+/index.php/landscape/strictly-outdoor/stepping-stone.html 3 -
+/index.php/flooring/sitemap 1 -
+/skin/frontend/base/default/js/shadesofstones/docs.min.js 4 http://shadesofstone.com/index.php/review/product/list/id/5/
+/shipping%20and%20delivery 6 -
+/index.php/flooring/ceramic-porcelain/industry%20glossary 1 http://shadesofstone.com/index.php/flooring/ceramic-porcelain/ledger%20panel%20visualizer
+/index.php/order%20a%20sample 2 -
+/skin/frontend/default/default/js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js 1 http://shadesofstone.com/index.php/popular-series/stainless-steel/arizona-5-8x2-blend-mosaic.html
+/images/most-pop-fea-img9.jpg 5 http://shadesofstone.com/
+//magmi15/web/magmi_upload.php 2 -
+/index.php/checkout/cart/odering%20process 1 -
+/index.php/images/most-pop-fea-img6.jpg 2 http://shadesofstone.com/index.php/
+/skin/frontend/default/default/js/lib/jquery-1.11.2.min.js 7 http://shadesofstone.com/index.php/tiles.html
+/edge%20profile%20visualizer 4 -
+/index.php/images/most-pop-fea-img4.jpg 2 http://shadesofstone.com/index.php/
+/index.php/images/most-pop-fea-img10.jpg 2 http://shadesofstone.com/index.php/
+//_magmi/web/magmi_upload.php 2 -
+/index.php/images/most-pop-fea-img8.jpg 2 http://shadesofstone.com/index.php/
+/index.php/checkout/cart/customer%20service 1 -
+/industry%20glossary 8 -
+/media/wysiwyg/shadesofstones/social-media-g+.png 1 -
+/index.php/customer%20service 2 -
+/index.php/flooring/as-per-application/buy%20granite%20tiles 1 -
+/index.php/catalog/product_compare/add/product/22/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/index.php/sales/guest/privacy%20policy 1 http://shadesofstone.com/index.php/sales/guest/form
+/index.php/kitchen-bath/mosaics-blends/marbles-mosaics.html 7 -
+/index.php/popular-series/crema-marfil-marble.html 12 -
+/robots.txt 72 -
+/index.php/kitchen-bath/mosaics-blends/oddysey-1-penny-round-12x12-interlocking-blend.html 1 -
+/kitchen%20visualizer 5 -
+/index.php/kitchen-bath/glass-metal-tiles.html 2 -
+//magmi3/web/magmi_upload.php 2 -
+/index.php/sitemap 4 -
+/new_magmi/web/magmi.php 1 http://shadesofstone.com/new_magmi/web/magmi.php
+/index.php/flooring/about%20us 1 -
+/media/catalog/category/Landscape.jpg 1 -
+/index.php/flooring/natural-stone/granite/about%20us 2 http://shadesofstone.com/index.php/flooring/natural-stone/granite/customer%20service
+/wordpress/wp-login.php 1 http://shadesofstone.com/wordpress/wp-login.php
+/magmi_2/web/magmi.php 1 http://shadesofstone.com/magmi_2/web/magmi.php
+/index.php/checkout/cart/returns%20and%20refund 1 -
+/images/most-pop-fea-img8.jpg 5 http://shadesofstone.com/
+/index.php/flooring/returns%20and%20refund 1 -
+//magmi8/web/magmi_upload.php 2 -
+/index.php/roome%20scene%20visualizer 2 -
+/index.php/catalog/category/view/id/4 1 -
+/index.php/landscape/strictly-outdoor/buy%20granite%20tiles 1 -
+/index.php/flooring/as-per-application/buy%20travertine 1 -
+/skin/frontend/default/default/js/shadesofstones/main.js 6 http://shadesofstone.com/index.php/review/product/list/id/5/
+/media/wysiwyg/12345.php 1 http://shadesofstone.com/get.php/media/wysiwyg/12345.php
+/index.php/odering%20process 5 -
+/index.php/checkout/cart/terms%20of%20sale 2 -
+/index.php/room%20scenes 3 -
+/index.php/flooring/ceramic-porcelain/sitemap 1 -
+/meshed%20pebbles 3 -
+/index.php/flooring/buy%20granite%20tiles 1 -
+/index.php/flooring/baseboard-threshold-windowsill.html 2 -
+/index.php/checkout/cart/sitemap 1 -
+/skin/frontend/default/default/sm/searchboxpro/js/jquery-noconflict.js 5 -
+/index.php/flooring/ceramic-porcelain/ 1 -
+/index.php/flooring/room%20scenes 1 -
+/index.php/popular-series/tuscany-classic.html 6 -
+/index.php/tuscany-gold-16-sft-french-pattern.html 1 -
+/index.php/flooring/advanced%20search 1 -
+/bitrix/admin/index.php 1 -
+/index.php/catalog/seo_sitemap/buy%20granite%20tiles 1 http://shadesofstone.com/index.php/catalog/seo_sitemap/category
+/skin/frontend/default/default/js/lib/imagesloaded.js 7 http://shadesofstone.com/index.php/review/product/list/id/5/
+/index.php/kitchen-bath/mosaics-blends/porcelain-mosaics.html 12 -
+/buy%20slater 2 -
+/buy%20ceramic%20and%20procelain 2 -
+/images/img/ 4 -
+/skin/frontend/default/default/css/shadesofstones/slicebox.css 13 -
+/index.php/flooring/ceramic-porcelain/faq 1 -
+/skin/frontend/default/default/css/shadesofstones/bootstrap.min.css 2 -
+/index.php/tiles.html 15 -
+/index.php/odyssey-subway-3-6-stainless-steel-mosaic.html 15 -
+//magmi5/web/plugin_upload.php 2 -
+/index.php/flooring/natural-stone/terms%20of%20use 1 -
+/magmi1/web/magmi.php 1 http://shadesofstone.com/magmi1/web/magmi.php
+/index.php/tiles/multi-classic-slate.html 1 -
+/index.php/flooring/ceramic-porcelain/ledger%20panel%20visualizer 1 http://shadesofstone.com/index.php/flooring/ceramic-porcelain/polished.html
+/index.php/contacts/contact%20us 1 http://shadesofstone.com/index.php/contacts/
+/index.php/kitchen-bath/mosaics-blends/oddysey-tundra-12x12-interlocking-blend.html 1 http://www.google.com/url
+/room%20scenes 3 -
+/index.php/checkout/cart/buy%20travertine 2 -
+/index.php/industry%20glossary 2 -
+/index.php/checkout/cart/advanced%20search 1 -
+/a 1 -
+//old_magmi/web/magmi_upload.php 2 -
+/index.php/kitchen-bath/mosaics-blends/subway-tiles.html 19 -
+/terms%20of%20use 6 -
+/buy%20oynxtiles 2 -
+/skin/frontend/default/default/js/shadesofstones/bootstrap.min.js 4 -
+/index.php/popular-series/emperador-cafe.html 3 -
+/index.php/catalog/seo_sitemap/category%22 1 http://shadesofstone.com/index.php/sales/guest/form/
+/faq 1 -
+/index.php/flooring/natural-stone/granite/customer%20service 2 -
+/index.php/returnandrefund 1 -
+/index.php/ajax/product/quickview/id/4/ 1 -
+/apple-touch-icon.png 2 -
+//magmi1/web/magmi_upload.php 2 -
+/media/testimonial_user/test-img-1.png 1 -
+/index.php/idea-s/do-it-yourself-countertop.html 3 -
+/index.php/popular-series/multi-classic-slate.html 4 -
+/skin/frontend/default/default/testimonialmanager/jqueryNoConfig.js 7 http://shadesofstone.com/index.php/review/product/list/id/5/
+/index.php/buy%20granite%20tiles 4 -
+/index.php/kitchen-bath/mosaics-blinds/slate-quartzite.html 1 -
+/index.php/contact%20us 2 -
+/index.php/checkout/cart/buy%20ceramic%20and%20procelain 1 -
+//magmi/web/plugin_upload.php 6 -
+/index.php/checkout/cart/buy%20marble%20tiles 1 -
+/sitemap 3 -
+/index.php/industryglossary 1 -
+/index.php/order/guest/form 1 http://shadesofstone.com/index.php/
+/media/wysiwyg/MARBLEMATERIALFACTSHEET022509.pdf 1 -
+/skin/frontend/default/default/js/lib/matchMedia.js 5 -
+/media/catalog/category/Best_Seller.png 1 -
+/index.php/idea-s/do-it-yourself-flooring.html 4 -
+/index.php/flooring/material%20facts 1 -
+/factory%20direct%20prices 3 -
+/index.php/terms%20of%20use 4 -
+/index.php/popular-series/white-oak.html 3 -
+/skin/frontend/default/default/js/lib/matchMedia.addListener.js 7 http://shadesofstone.com/index.php/tiles.html
+/index.php/flooring/industry%20glossary 1 -
+/index.php/flooring/terms%20of%20sale 1 -
+/index.php/catalog/seo_sitemap/kitchen%20visualizer 1 http://shadesofstone.com/index.php/catalog/seo_sitemap/category
+//magmi13/web/magmi_upload.php 2 -
+/index.php/checkout/cart/about%20us 1 -
+/index.php/checkout/cart/roome%20scene%20visualizer 1 -
+/skin/frontend/default/default/sm/searchboxpro/css/searchboxpro.css 3 -
+/index.php/popular-series/tuscany-gold.html 7 -
+/index.php/oddysey-pyramids-12x12-interlocking-blend.html 5 -
+/index.php/popular-series/stainless-steel/oddysey-2-hexagon-12x12-interlocking-mosaic.html 4 -
+/index.php/landscape/strictly-outdoor/odering%20process 1 -
+/index.php/wishlist/index/add/product/25/form_key/lk9bDcpHcaLMIjHu/ 1 -
+//magmi12/web/magmi_upload.php 2 -
+/index.php/flooring/order%20a%20sample 1 -
+/app/etc/local.xml 404 -
+/index.php/diy/do-it-yourself-flooring.html 1 -
+/index.php/caring%20and%20cleaning 2 -
+/index.php/edge%20profile%20visualizer 3 -
+/ 3 -
+/index.php/odyssey-subway-3-3-stainless-steel-mosaic.html 3 -
+/skin/frontend/default/default/js/shadesofstones/script.js 6 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/flooring/roome%20scene%20visualizer 1 -
+/index.php/kitchen-bath/trims-borders.html 1 -
+/index.php/yourimage.file 5 http://shadesofstone.com/index.php/
+/index.php/popular-series/cafe-forest.html 3 -
+//magmi9/web/magmi_upload.php 2 -
+/index.php/termsofuse 1 -
+/index.php/buy%20oynxtiles 3 -
+/index.php/catalogsearch/terms%20of%20use 2 -
+/index.php/flooring/natural-stone/meshed%20pebbles 1 -
+/check%20order%20status 5 -
+//magmi20/web/magmi_upload.php 2 -
+/index.php/edgeprofilevisualizer 3 -
+/terms%20of%20sale 4 -
+/index.php/checkout/cart/meshed%20pebbles 2 -
+/index.php/privacy-policy 1 -
+/index.php/popular-series/emperador-light.html 3 -
+/index.php/review/product/list/id/27/category/67/ 1 -
+/magmi_nw/web/magmi.php 1 http://shadesofstone.com/magmi_nw/web/magmi.php
+/images/most-pop-fea-img6.jpg 5 http://shadesofstone.com/
+/index.php/factory%20direct%20prices 3 http://shadesofstone.com/index.php/do-it-yourself.html
+/odering%20process 3 -
+/index.php/popular-series/china-black.html 3 -
+/media/catalog/product/cache/1/small_image/207x170/9df78eab33525d08d6e5fb8d27136e95/h/b/hb-ws-006.jpg 1 -
+/magmi2/web/magmi.php 1 http://shadesofstone.com/magmi2/web/magmi.php
+/js/prototype/windows/themes/magento.css 1 -
+/index.php/landscape/strictly-outdoor/paver-various-sizes.html 1 -
+/index.php/faq 1 -
+/index.php/checkout/cart/buy%20baseboards 2 -
+/index.php/buy%20travertine 3 -
+/index.php/tiles/california-gold-slate.html 1 -
+/skin/frontend/base/default/3DSlider/slider.css 1 -
+/index.php/kitchen-bath/mosaics-blends/onyx-mosaics.html 18 -
+/magmi/web/magmi.php 1 -
+/skin/frontend/default/default/css/shadesofstones/style-popup.css 1 -
+/index.php/catalogsearch/edge%20profile%20visualizer 1 http://shadesofstone.com/index.php/catalogsearch/room%20cene%20visualizer
+/about%20us 8 http://shadesofstone.com/
+/magmi_new/web/magmi.php 1 http://shadesofstone.com/magmi_new/web/magmi.php
+/index.php/catalog/seo_sitemap/room%20cene%20visualizer 1 http://shadesofstone.com/index.php/catalog/seo_sitemap/category
+/index.php/popular-series/luxor-gold.html 16 -
+/index.php/careandclean 2 -
+/index.php/bathroom%20visualizer 2 -
+/index.php/tiles/emperador-light.html 1 -
+/buy%20travertine 1 -
+/index.php/landscape/strictly-outdoor/privacy%20policy 1 -
+//magmi7/web/magmi_upload.php 2 -
+/index.php/flooring/odering%20process 1 -
+/index.php/kitchen-bath/mosaics-blends/medallion.html 3 -
+//magmi16/web/magmi_upload.php 2 -
+/index.php/sales/guest/sales/guest/about-us 1 http://shadesofstone.com/index.php/sales/guest/sales/guest/form
+//magmi4/web/magmi_upload.php 2 -
+/index.php/kitchen-bath/glass-metal-tiles/glass-blend.html 1 -
+/media/catalog/category/kb_1.jpg 1 -
+/index.php/arabescato-carrara-duo-interlocking-12x12-mosaic.html 9 -
+/index.php/wishlist/index/add/product/29/form_key/Jd4X64ukSebNRYaG/ 1 -
+/index.php/checkout/cart/shipping%20and%20delivery 1 -
+/caring%20and%20cleaning 6 -
+/index.php/catalog/seo_sitemap 1 -
+/index.php/wishlist/index/add/product/14/form_key/etwvkyvsx8ACTTsx/ 1 -
+/skin/frontend/default/default/js/shadesofstones/jquery.slicebox.js 6 http://shadesofstone.com/index.php/tiles.html
+/index.php/popular-series/tuscany-walnut.html 3 -
+//magmi6/web/plugin_upload.php 2 -
+/skin/frontend/default/default/css/shadesofstones/owl.carousel.css 1 -
+/index.php/ajax/product/quickview/id/14/ 1 -
+/index.php/tiles/durango-cream.html 1 -
+/index.php/kitchen%20visualizer 2 -
+/index.php/buy%20baseboards 3 -
+/index.php/about-magento-demo-store 2 -
+/index.php/flooring/faq 1 -
+/media/catalog/product/cache/1/small_image/207x170/9df78eab33525d08d6e5fb8d27136e95/s/i/silvertravertine12x12_d.jpg 1 -
+/js/mage/translate.js 1 -
+//magmi10/web/magmi_upload.php 2 -
+/returns%20and%20refund 2 -
+/index.php/popular-series/green-onyx.html 4 -
+/media/catalog/category/Flooring_1.JPG 1 -
+/index.php/images/most-pop-fea-img2.jpg 2 http://shadesofstone.com/index.php/
+/index.php/flooring.html 1 -
+/index.php/checkout/cart/check%20order%20status 1 -
+/index.php/kitchen-bath/glass-metal-tiles/magic-steel-and-marble-glass-12x12-blend.html 2 -
+/index.php/kitchen-bath/mosaics-blends.html 9 -
+/skin/frontend/default/default/css/czettner_ajax.css 1 -
+/ledger%20panel%20visualizer 4 -
+/images/most-pop-fea-img10.jpg 5 http://shadesofstone.com/
+/store/index.php/admin 1 http://shadesofstone.com/store/index.php/admin
+/index.php/shipping%20and%20delivery 4 -
+/media/wysiwyg/shadesofstones/social-media-fb.png 1 -
+/index.php/backsplashideas 2 -
+/roome%20scene%20visualizer 5 -
+/images/most-pop-fea-img2.jpg 5 http://shadesofstone.com/
+/index.php/tiles/tuscany-walnut.html 2 -
+/flooring/ceramic-porcelain-tiles.html 1 http://shadesofstone.com/index.php/
+/administrator/index.php 1 -
+//magmi2/web/magmi_upload.php 2 -
+/index.php/kitchen-bath/glass-metal-tiles/metal-glass/oddysey-pyramids-12x12-interlocking-blend.html 1 -
+/index.php/kitchen-bath/mosaics-blends/travertine-mosaics.html 3 -
+/index.php/flooring/buy%20ceramic%20and%20procelain 1 -
+/index.php/flooring/check%20order%20status 1 -
+/index.php/flooring/terms%20of%20use 1 -
+/index.php/flooring/bathroom%20visualizer 1 -
+//magmi5/web/magmi_upload.php 2 -
+/index.php/flooring/natural-stone/room%20scenes 1 -
+/buy%20granite%20tiles 2 -
+/index.php/oddysey-2-hexagon-12x12-interlocking-mosaic.html 3 -
+/wysiwyg/images/background.jpg 4 http://shadesofstone.com/
+/skin/frontend/default/default/css/shadesofstones/new-input.css 4 -
+/material%20facts 5 -
+/index.php/ledger%20panel%20visualizer 2 -
+/index.php/images/most-pop-fea-img5.jpg 2 http://shadesofstone.com/index.php/
+/skin/frontend/default/default/js/shadesofstones/owl.carousel.js 5 -
+/index.php/review/product/list/id/23/category/12/ 1 -
+/index.php/flooring/natural-stone/about%20us 1 -
+/index.php/checkout/cart/bathroom%20visualizer 1 -
+//magmi6/web/magmi_upload.php 2 -
+/index.php/material%20facts 2 -
+/index.php/catalog/seo_sitemap/advanced%20search 2 -
+/index.php/flooring/factory%20direct%20prices 1 -
+/index.php/kitchen-bath/mosaics-blends/metal-mosaics.html 8 -
+/index.php/flooring/ceramic-porcelain/buy%20slater 1 -
+/admin/login.php 1 -
+/index.php/landscape/strictly-outdoor/buy%20travertine 1 -
+/index.php/golden-honey-ledger-panel-6x24-split-face.html 2 -
+/images/most-pop-fea-img4.jpg 5 http://shadesofstone.com/
+/index.php/checkout/cart/order%20a%20sample 1 -
+/index.php/oddysey-1-penny-round-12x12-interlocking-blend.html 12 -
+/index.php/landscape/strictly-outdoor/room%20cene%20visualizer 1 -
+/m/ 5 -
+/skin/frontend/default/default/js/shadesofstones/small-header-scroll.js 8 http://shadesofstone.com/index.php/tiles.html
+/media/catalog/product/cache/1/small_image/207x170/9df78eab33525d08d6e5fb8d27136e95/h/b/hb-ygs047-1.jpg 2 -
+/index.php/popular-series/golden-white.html 15 -
+/order%20a%20sample 3 -
+/browserconfig.xml 1 -
+/skin/frontend/default/default/my_igallery/css/styles.css 3 -
+/skin/frontend/default/default/css/shadesofstones/style.css 1 -
+/index.php/flooring/shipping%20and%20delivery 1 -
+/index.php/popular-series/red-onyx.html 3 -
+/index.php/flooring/caring%20and%20cleaning 1 -
+/index.php/popular-series/rain-forest.html 17 -
+/skin/frontend/default/default/js/lib/jquery.cycle2.min.js 7 http://shadesofstone.com/index.php/tiles.html
+/buy%20marble%20tiles 2 -
+/index.php/checkout/cart/kitchen%20visualizer 2 -
+//magmi17/web/magmi_upload.php 2 -
+/index.php/flooring/natural-stone/buy%20slater 1 -
+/index.php/advanced%20search 2 -
+/index.php/tiles/emperador-cafe.html 1 -
+/mobile/ 4 -
+/index.php/seo_sitemap/category 1 -
+//magmi19/web/magmi_upload.php 2 -
+/index.php/catalogsearch/result/meshed%20pebbles 2 http://shadesofstone.com/index.php/catalogsearch/result/buy%20marble%20tiles
+/apple-touch-icon-120x120.png 1 -
+/index.php/images/most-pop-fea-img7.jpg 2 http://shadesofstone.com/index.php/
+/index.php/roomvisualizer 1 -
+/skin/frontend/default/default/testimonialmanager/jquery.bxslider.min.js 9 http://shadesofstone.com/index.php/review/product/list/id/5/
+/skin/frontend/default/default/js/productInfo.js 6 http://shadesofstone.com/index.php/tiles.html
+/index.php/checkout/cart/buy%20oynxtiles 2 -
+/index.php/ajax/product/quickview/id/13/ 1 -
+/js/my_igallery/jquery.js 5 http://shadesofstone.com/index.php/review/product/list/id/5/
+/index.php/checkout/cart/factory%20direct%20prices 2 -
+/index.php/landscape/pool-wet-surrounding/pool-coping.html 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/blog/wp-login.php 1 http://shadesofstone.com/blog/wp-login.php
+//magmi18/web/magmi_upload.php 2 -
+/index.php/flooring/natural-stone/privacy%20policy 1 -
+/index.php/terms%20of%20sale 4 -
+/skin/frontend/default/default/js/lib/jquery.cycle2.swipe.min.js 7 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/contect-us.html 1 -
+/index.php/popular-series/white-cloud.html 3 -
+/index.php/home.html 7 -
+/skin/frontend/default/default/css/shadesofstones/carousel.css 1 -
+/index.php/flooring/ceramic-porcelain/bathroom%20visualizer 1 http://shadesofstone.com/index.php/flooring/ceramic-porcelain/glazed.html
+/skin/frontend/default/default/js/slideshow.js 7 http://shadesofstone.com/index.php/tiles.html
+/skin/frontend/default/default/js/lib/modernizr.custom.min.js 7 -
+/skin/frontend/default/default/css/shadesofstones/input.css 1 -
+/index.php/popular-series/stainless-steel.html 31 -
+/index.php/site-map 1 -
+/index.php/checkout/cart/material%20facts 1 -
+/index.php/flooring/natural-stone/sitemap 1 -
+/index.php/room-scene.html 2 -
+/index.php/arabescato-carrara-interwoven-12x12-polished.html 5 -
+/index.php/sales/guest/sales/guest/contacts 1 http://shadesofstone.com/index.php/sales/guest/sales/guest/about-us
+/index.php/premium-black-12x12-polished.html 1 -
+/media/catalog/product/cache/1/small_image/207x170/9df78eab33525d08d6e5fb8d27136e95/h/b/hb-ygs052-1_hb-ygs052-2.jpg 1 -
+/index.php/flooring/buy%20baseboards 1 -
+/index.php/flooring/natural-stone/buy%20oynxtiles 1 -
+/index.php/kitchen-bath/mosaics-blends/slate-quartzite.html 5 -
+/index.php/flooring/meshed%20pebbles 1 -
+//magmi/web/magmi_upload.php 5 -
+/customer%20service 7 http://shadesofstone.com/about%20us
+/index.php/buy%20marble%20tiles 6 -
+/index.php/catalog/seo_sitemap/faq 1 http://shadesofstone.com/index.php/catalog/seo_sitemap/category
+/index.php/backend/Cms_Wysiwyg/directive/index/ 2 -
+/js/varien/configurable.js 1 -
+/flooring/natural-stone-tile.html 1 http://shadesofstone.com/index.php/
+/index.php/kitchen-bath/glass-metal-tiles/oddysey-1-penny-round-12x12-interlocking-blend.html 1 -
+//_magmi/web/plugin_upload.php 2 -
+/index.php/about%20us 5 -
+/wp/wp-login.php 1 http://shadesofstone.com/wp/wp-login.php
+/index.php/popular-series/calacatta-gold.html 3 -
+/index.php/tiles/china-black.html 1 -
+/index.php/images/most-pop-fea-img1.jpg 2 http://shadesofstone.com/index.php/
+/index.php/flooring/natural-stone/contact%20us 1 -
+/index.php/popular-series/metallix-brick-1x2-interlocking-blend.html 3 -
+/index.php/flooring/ceramic-porcelain/about%20us 1 -
+/index.php/catalog/seo_sitemap/roome%20scene%20visualizer 1 http://shadesofstone.com/index.php/catalog/seo_sitemap/category
+/js/my_igallery/jquery.prettyPhoto.js 6 http://shadesofstone.com/index.php/review/product/list/id/5/
+/index.php/popular-series/tuscanyscabas.html 2 -
+/index.php/wysiwyg/images/background.jpg 5 http://shadesofstone.com/index.php/
+/index.php/tiles/stainless-steel.html 1 -
+/skin/frontend/default/default/js/lib/enquire.js 4 -
+/index.php/flooring/buy%20marble%20tiles 1 -
+/js/my_igallery/jquery.noconflict.js 6 http://shadesofstone.com/index.php/review/product/list/id/5/
+//magmi/web/download_file.php 2 -
+/index.php/privacy%20policy 6 -
+/images/most-pop-fea-img7.jpg 5 http://shadesofstone.com/
+/index.php/checkout/cart/edge%20profile%20visualizer 1 -
+/index.php/flooring/buy%20travertine 1 -
+/contact%20us 7 -
+/index.php/images/most-pop-fea-img3.jpg 2 http://shadesofstone.com/index.php/
+/skin/frontend/default/default/js/shadesofstones/new-input.js 10 -
+/index.php/logout 1 -
+/index.php/popular-series/durango-cream.html 12 -
+/index.php/popular-series/honey-onyx.html 15 -
+/index.php/popular-series/crema-cappuccino.html 8 -
+/media/catalog/category/Room_scene.jpg 1 -
+/media/wysiwyg/Care-and-Cleaning-Natural-Stone.pdf 1 -
+/skin/frontend/default/default/js/lib/selectivizr.js 9 http://shadesofstone.com/index.php/review/product/list/id/5/
+/index.php/stainless-steel-magic-pattern-mosaic-12x12.html 1 -
+/index.php/flooring/as-per-application/ledger%20panel%20visualizer 1 -
+/index.php/check%20order%20status 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 129
+126.65.160.7 587 878 21594062 20150426072004
+124.213.121.102 484 744 20206559 20150422080241
+126.15.26.52 312 399 9056236 20150422133416
+122.160.202.101 162 2326 50636768 20150425114519
+126.15.178.127 133 213 6023306 20150423111427
+112.196.17.103 100 729 10529919 20150428212552
+180.151.13.66 84 952 19018476 20150424230904
+210.229.155.62 59 350 6600303 20150422221505
+126.65.167.223 59 218 4826560 20150419104431
+96.255.239.138 51 827 14579745 20150428091617
+60.71.150.48 31 48 1843785 20150422152819
+176.42.61.29 28 28 105950 20150428144349
+107.205.192.169 27 109 2160699 20150424183320
+65.122.111.70 22 277 5256115 20150424091641
+126.205.78.174 20 77 1705376 20150418145742
+126.114.137.194 14 80 1749845 20150418150113
+126.254.218.187 13 24 450258 20150421114256
+64.202.160.161 8 118 2568637 20150428121830
+126.255.141.52 8 65 1493074 20150425120013
+106.51.139.205 8 129 1675171 20150428112811
+122.177.221.206 6 61 1381740 20150429010257
+126.253.173.134 6 74 1663429 20150426233752
+76.116.135.202 6 50 1155951 20150421122305
+122.160.138.148 6 139 2990769 20150424231943
+126.254.202.39 5 56 1264442 20150422082821
+167.160.103.112 1 1 40161 20150420040233
+202.46.48.40 1 1 28058 20150422183215
+220.181.38.142 0 1 19023 
+101.60.169.59 1 45 1141686 20150422075953
+60.71.140.188 3 27 337503 20150416100441
+66.87.82.233 1 33 996231 20150421063521
+123.125.68.26 0 1 170 
+202.46.62.149 1 1 21186 20150424101900
+220.181.38.169 0 1 4416 
+202.46.48.129 1 1 29565 20150423161902
+96.227.124.37 1 1 40161 20150420192852
+23.22.13.75 1 32 1009097 20150428130839
+117.169.1.221 1 1 24164 20150422070549
+123.125.68.18 0 1 330 
+202.46.56.174 1 1 29565 20150421165519
+54.227.153.60 1 1 44094 20150423063840
+202.46.48.94 1 1 29565 20150421201117
+5.9.117.53 1 41 1009990 20150422043256
+216.246.166.238 0 56 177670 
+220.181.38.138 0 1 170 
+64.235.52.138 1 1 44147 20150422135247
+112.196.17.105 0 8 88835 
+123.125.68.45 0 1 52 
+126.255.73.209 1 42 1009648 20150421063028
+107.152.128.28 1 1 27806 20150422171927
+54.159.238.14 1 32 997812 20150420050255
+185.66.250.80 1 1 40161 20150419163958
+123.125.68.60 0 1 9066 
+123.125.68.61 0 1 3538 
+216.69.183.39 2 56 1195179 20150425081840
+220.181.38.165 0 1 4041 
+106.76.128.139 0 6 88835 
+220.181.38.184 0 1 4041 
+123.125.68.30 0 1 14575 
+107.190.172.100 1 1 40161 20150420002722
+123.125.71.88 1 1 40161 20150420104251
+23.95.43.110 1 1 40500 20150421212936
+202.46.49.25 1 1 28058 20150422175326
+157.55.39.203 0 5 61943 
+220.181.38.164 0 1 6485 
+123.125.68.59 0 2 8832 
+54.209.60.63 4 4 111230 20150429001428
+220.181.38.236 0 1 19023 
+103.224.250.78 1 1 48846 20150425102000
+66.87.81.65 2 52 1405025 20150427051703
+220.181.108.148 1 1 40500 20150421160138
+202.46.61.143 1 1 29565 20150421202712
+184.73.83.149 1 1 50803 20150428124110
+115.184.30.6 1 4 44432 20150422093227
+180.76.5.192 1 1 48793 20150428053006
+123.125.68.9 0 2 26708 
+64.58.165.50 2 59 1333308 20150424080124
+54.204.96.231 0 27 809914 
+123.125.68.57 0 1 50 
+24.159.121.232 5 55 1082257 20150420094037
+202.46.50.69 1 1 29565 20150421180507
+66.87.83.135 3 83 2410531 20150426125115
+123.125.68.10 0 1 298 
+66.87.81.206 2 32 1054299 20150427121244
+70.26.74.159 0 36 881175 
+202.46.50.153 2 2 59130 20150423195707
+123.125.68.44 0 1 1663 
+104.219.248.145 2 2 3835 20150426160249
+195.154.241.109 2 2 84308 20150422193032
+116.75.216.114 2 14 97932 20150426194307
+66.87.82.178 1 31 996262 20150419091347
+180.76.5.81 1 1 40161 20150421000736
+97.74.104.7 4 222 4926564 20150428112136
+123.125.68.34 0 1 52 
+202.46.50.31 1 1 29565 20150421214026
+99.189.169.185 0 34 819271 
+202.46.49.58 1 1 29565 20150421210642
+123.125.68.15 0 1 9137 
+155.94.176.236 1 1 40214 20150419230119
+202.46.50.49 1 1 29565 20150421174640
+85.25.134.45 3 3 675 20150425162135
+126.65.242.21 0 6 88835 
+123.125.68.29 0 2 350 
+220.181.38.152 0 1 50 
+54.147.210.227 1 1 40161 20150420045632
+66.249.83.250 3 3 84027 20150420142028
+97.74.104.6 1 44 1014586 20150422064843
+217.12.202.39 3 3 51291 20150425060115
+103.227.96.155 2 75 1505461 20150418125509
+54.145.151.46 4 143 4160755 20150428131626
+123.125.71.89 1 1 40500 20150421155837
+183.207.228.38 1 1 40161 20150420115128
+69.12.89.164 1 1 40161 20150420004841
+174.129.22.133 5 5 57980 20150421000305
+216.113.160.77 0 7 159110 
+112.196.17.101 1 59 1286401 20150423194539
+54.145.244.168 0 108 3239656 
+66.249.88.207 3 3 136898 20150425090244
+98.109.78.87 3 57 1215351 20150422200441
+158.222.13.50 1 1 40214 20150420223712
+123.125.68.8 0 2 67795 
+121.117.160.8 1 1 28900 20150421215930
+221.176.14.77 1 1 40161 20150420030221
+54.147.195.24 4 4 106246 20150428124536
+126.253.231.221 5 30 514111 20150419163000
+183.207.224.51 1 1 40161 20150421001158
+66.249.88.204 1 1 48793 20150428112544
+66.249.83.137 1 1 47499 20150423112304
+23.22.14.71 1 1 48793 20150427064915
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20150415 12 26 426139 2
+20150416 6 104 863980 2
+20150417 0 24 355340 0
+20150418 57 385 7977427 7
+20150419 102 705 15868587 13
+20150420 41 488 11748934 20
+20150421 267 969 20288307 27
+20150422 774 1747 39207096 28
+20150423 171 804 17786494 16
+20150424 112 816 13630897 14
+20150425 702 3478 78256541 22
+20150426 28 243 5343234 10
+20150427 6 95 2722219 4
+20150428 75 738 15373274 16
+20150429 4 6 164015 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 12
+2mn-5mn 5
+15mn-30mn 10
+30s-2mn 19
+0s-30s 116
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 414
+/ 260 11490717 126 95
+/index.php/ 236 10344283 9 19
+/index.php/admin/system_convert_gui/batchRun/key/6444746a384f6d980a29801f444ec98a/ 123 10824 0 1
+/index.php/about-us 68 1930519 1 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/3d80c11dc1fba4a834368b59b113678d/ 60 4177260 0 1
+/index.php/flooring/natural-stone/granite.html 47 2100744 0 2
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/d89f0b3dce02d122bd1c962993f14a1e/ 38 2645598 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/d89f0b3dce02d122bd1c962993f14a1e/ 36 176436 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/d89f0b3dce02d122bd1c962993f14a1e/ 36 230976 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/d89f0b3dce02d122bd1c962993f14a1e/ 36 160380 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/d89f0b3dce02d122bd1c962993f14a1e/ 36 229968 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/d89f0b3dce02d122bd1c962993f14a1e/ 36 185148 0 0
+/index.php/admin/cms_page/edit/page_id/3/back/edit/active_tab/content_section/key/e6738289eada64635614e795d4577999/ 30 2102015 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/content_section/key/3060af5b056a4e85060ab529a13cb27b/ 28 1886676 0 0
+/admin/ 28 105950 1 1
+/index.php/flooring/natural-stone/granite/gastine.html 25 1095483 3 5
+/info.php 24 727423 4 4
+/index.php/shipping-and-delivery 22 792367 0 1
+/index.php/admin 22 80828 6 5
+/index.php/catalog/seo_sitemap/category 20 577965 3 1
+/index.php/admin/cms_wysiwyg_images/treeJson/key/b2c6b88a091b685db79106289c9a8259/ 20 508 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/content_section/key/7c0920ace892b310169ac9f3d16af5f8/ 18 1191830 0 0
+/index.php/admin/cms_wysiwyg_images/contents/key/3ca68197754645d3ef50ff9b6361116f/ 18 19270 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/3d80c11dc1fba4a834368b59b113678d/ 15 66825 0 0
+/index.php/admin/cms_page/index/key/721fba2b7b34c89d87801c51ccead8f0/ 15 948097 0 0
+/index.php/admin/cms_page/index/key/1dab71f1d97b43bfe0d57c3abde3a314/ 7 465657 0 0
+/index.php/admin/catalog_product/edit/store/0/id/2/key/57227000ac40053f3168b5fd0c114c5f/ 1 141917 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc0LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 13075 0 0
+/index.php/admin/system_convert_gui/save/key/b07c91ea49094c6085f416ef958d3e81/continue/true/ 2 7462 1 0
+/index.php/admin/cms_page/edit/page_id/3/back/edit/active_tab/design_section/key/e6738289eada64635614e795d4577999/ 1 70060 0 0
+/index.php/admin/cms_wysiwyg_images/upload/key/990d49945a28c28c0bd029515aa197de/ 10 3451 0 0
+/index.php/admin/system_convert_gui/save/key/2646a712bd56f0c40d8b973233c50022/continue/true/ 1 3674 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/47750c82cfd93bebb016c0e538507097/ 5 31940 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc0LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 9401 0 0
+/index.php/landscape/strictly-outdoor.html 5 133857 0 0
+/index.php/customer/account/login/industry%20glossary 1 27542 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/3d80c11dc1fba4a834368b59b113678d/ 12 58812 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxLmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 7138 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWczLmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 29580 0 0
+/index.php/catalogsearch/advanced/ 4 127170 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bmF0dXJhbC1zdG9uZS1mbG9vcmluZy10aWxlLmpwZw--/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2453 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc5LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 9564 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zYWljLWFjY2Vzc29yaWVzLmpwZw--/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2910 0 0
+/index.php/admin/system_convert_gui/index/key/bff35cb07e98ab2cae829503662daabb/ 1 67249 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/92d8caed1e0221ee68401879bddc09a9/ 5 348105 0 0
+/index.php/admin/cms_page/edit/page_id/11/back/edit/active_tab/main_section/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 83196 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzIuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2458 0 0
+/index.php/customer/account/login/ 14 386956 1 3
+/index.php/admin/cms_page/edit/page_id/10/back/edit/active_tab/main_section/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 71149 0 0
+/index.php/flooring/ceramic-porcelain.html 4 120868 0 0
+/index.php/catalogsearch/result/ 4 140706 0 0
+/index.php/admin/dashboard/index/key/d3eae1e7411d780153b99e4aff963824/ 1 61677 0 0
+/index.php/sales/guest/form 8 218008 0 0
+/index.php/admin/catalog_product/validate/store/0/id/3/key/8c3aed07055379b085fcc9a85768fa65/ 1 15 0 0
+/index.php/flooring/natural-stone/granite/durango-cream.html 14 480010 0 0
+/index.php/admin/cms_page/edit/page_id/3/key/e81ee29de3b3e0d97ae7bbed2107d947/ 3 203267 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/3d40fb708cf8e47e3fe95736b1784b1b/ 1 59337 0 0
+/index.php/admin/catalog_category/categoriesJson/key/382ec53830178d6c43fc6465cffa7634/ 2 1829 0 0
+/index.php/landscape/strictly-outdoor/pavers-various-sizes.html 1 26000 0 0
+/index.php/admin/dashboard/index/key/d8e483a80f2e13caf203d630148d97ef/ 1 61267 0 0
+/index.php/admin/catalog_category/edit/key/8c18a6eb660f71b22b6995d1ad3b6474/ 1 42765 0 0
+/index.php/admin/catalog_product/index/key/501242e734f60d04d97f1a1c7feb9f73/ 5 365738 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 12832 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/6f7130f510ae33fad441d4c378816c2c/ 2 8817 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/14d944f42d77bb934ff654125f4d30f6/ 1 76761 0 0
+/index.php/flooring/ceramic-porcelain/glazed.html 4 104520 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc5LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 38256 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/1eb200a0a297d805d47390715a59669f/ 1 59596 0 0
+/index.php/checkout/cart/ 9 359524 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc0LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 37604 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/fa3d894a4cfa051e2e86afdf219a4dd8/ 1 69685 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxMC5qcGcifX0,/key/92d8caed1e0221ee68401879bddc09a9/ 3 22404 0 0
+/index.php/contacts 13 334125 1 1
+/cpanel 1 9048 1 1
+/index.php/admin/catalog_product_attribute/index/key/7816cdd4be8b12106a874023419ec368/ 1 87808 0 0
+/index.php/admin/catalog_product_attribute/index/key/6d0131747817b3f9dcb1df324892b31a/limit/50/form_key/VJ0eEN2n1k5rl1hL/ 1 143866 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/6f7130f510ae33fad441d4c378816c2c/ 2 10062 0 0
+/index.php/admin/system_convert_gui/index/key/ec4174719ffdc1ce7574eca15a0b0c23/ 1 65420 0 0
+/index.php/flooring/as-per-application.html 3 81201 0 0
+/index.php/admin/cms_page/index/key/f8bdc30b1c0ba5644400b9688fe44f6e/ 1 68405 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxMC5qcGcifX0,/key/6f7130f510ae33fad441d4c378816c2c/ 2 11142 0 1
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzMuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2147 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc2LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 8951 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/477ce32117bee9d1b4f164eb4219c605/ 2 149514 0 0
+/index.php/admin/system_convert_gui/run/id/8/key/e3ab3143d4cd1adcb048c7704720589a/files/import-20150426004757-2_50importproductdetailsnew.csv/ 1 15959 0 0
+/index.php/admin/cms_page/edit/page_id/6/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 75735 0 0
+/get.php/media/wysiwyg/12345.php 1 161 1 1
+/index.php/admin/dashboard/index/key/12e8ecd869ad6e1a18b397c4a2acf37b/ 1 3674 1 1
+/index.php/admin/dashboard/index/key/74697591263922724d9bf0998c2039b6/ 2 121497 0 0
+/index.php/admin/cms_page/index/key/80819e702d6ca667fde5d52cb9950171/ 6 210768 0 1
+/index.php/admin/catalog_product_attribute/new/key/bd355c8ed84835794c59cca6a6979d18/ 1 75960 0 0
+/index.php/admin/cms_page/edit/page_id/4/back/edit/active_tab/design_section/key/477ce32117bee9d1b4f164eb4219c605/ 1 70884 0 0
+/index.php/admin/cms_wysiwyg_images/index/key/a3c04121b013b8c361b59e8869663252/target_element_id/page_content/ 2 13107 0 0
+/index.php/admin/index/index/key/2c86cce93325909b5b225e14b225ca9c/ 1 3674 1 0
+/index.php/admin/cms_page/index/key/74bd965b3da2d263b99bacb644b56190/ 2 65441 0 0
+/index.php/customer/account/login/factory%20direct%20prices 1 27542 0 0
+/index.php/admin/cms_page/new/key/3299f5f97514f159740409e8267581cc/ 1 64128 0 0
+/index.php/admin/catalog_product_attribute/edit/attribute_id/71/key/2e62182b87b9f95b2ec10ce7a020f3c4/ 1 76243 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzguanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2946 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 15429 0 0
+/index.php/admin/cms_page/edit/page_id/3/key/e6738289eada64635614e795d4577999/ 1 67766 0 0
+/index.php/admin/catalog_product/edit/id/5/key/57227000ac40053f3168b5fd0c114c5f/ 1 155157 0 0
+/index.php/admin/system_convert_gui/edit/id/8/key/f06891f6c0cc32424fd09dcfb36bf715/ 1 130169 0 0
+/index.php/admin/cms_page/edit/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 67409 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 10286 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcyLmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 37356 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 8910 0 0
+/index.php/flooring/natural-stone/marble.html 2 51999 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWczLmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 11069 0 0
+/index.php/admin/catalog_product_attribute/index/key/fe316338c7a56e6583aa6e3e2e02c708/limit/200/form_key/R4RuYE3ZKhPLhglj/ 1 208952 0 0
+/index.php/admin/cms_block/new/key/2d7f351e4572db01dbd53bd522126778/ 1 54132 0 0
+/index.php/api/xmlrpc 1 282 0 0
+/index.php/admin/catalog_product/validate/id/5/key/8c3aed07055379b085fcc9a85768fa65/ 1 15 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/YmFja2dyb3VuZC5qcGc-/key/347f8aa3e7ff73dbd8e40a6777384f11/ 12 22044 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWczLmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 7395 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxMC5qcGcifX0,/key/47750c82cfd93bebb016c0e538507097/ 1 7468 0 0
+/index.php/do-it-yourself.html 7 178096 0 4
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc2LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 12625 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/33193b870ef7bd950724f3daa381f09a/ 2 146445 0 0
+/index.php/admin/cms_page/index/key/3c3143066399ed11d311aba6f0d8a72d/ 2 133205 0 0
+/index.php/customer/account/login/advanced%20search 1 27542 0 0
+/index.php/sales/guest/form/ 8 216935 0 0
+/index.php/admin/catalog_category/edit/id/11/key/70be4cff53eb4f9ea3ef1e509c68cc05/ 1 46316 0 0
+/index.php/catalogsearch/term/popular/ 2 47318 0 0
+/index.php/admin/cms_block/edit/block_id/3/key/10ae8eb978b17d7384184762ca9efe8f/ 1 55083 0 0
+/index.php/admin/widget_instance/index/key/8c4ad505a0d3018a3b40d97e5af956ff/ 1 49729 0 0
+/index.php/admin/dashboard/index/key/14a10f5a8e6bc0709dd059e8d929f199/ 1 61255 0 0
+/index.php/admin/cms_block/index/key/1254ab9263d1f6f1ffd33b3d87288272/ 6 347159 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxLmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 28552 0 0
+/index.php/admin/cms_page/edit/page_id/9/key/477ce32117bee9d1b4f164eb4219c605/ 1 67820 0 0
+/index.php/admin/catalog_category/edit/key/40d1d47cc00861598058dbb9e2f9d435/id/11/ 1 46237 0 0
+/index.php/admin/catalog_product/edit/id/6/key/57227000ac40053f3168b5fd0c114c5f/ 2 310252 0 0
+/index.php/admin/cms_page/index/key/2377768a794e42b774db30f47152cdc3/ 1 66549 0 0
+/index.php/catalog/seo_sitemap/product/ 2 51232 0 0
+/index.php/admin/system_convert_gui/batchFinish/id/9/key/5911417f2a345fdd81c84ed8cce34525/ 1 2 0 0
+/index.php/admin/catalog_product/edit/store/0/id/3/key/57227000ac40053f3168b5fd0c114c5f/ 1 142336 0 0
+/index.php/admin/catalog_category/edit/key/6ee061d05a883707a17b98c5ecbacc7c/ 1 42765 0 0
+/js/tiny_mce/themes/advanced/color_picker.htm 1 3317 0 0
+/index.php/admin/cms_page/index/key/09a75aff0c9c7005dc10248c3d5de906/ 1 66549 0 0
+/index.php/flooring/baseboard-threshhold-window-sill.html 6 160347 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzYuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2563 0 0
+/index.php/customer/account/index/ 1 28861 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc1LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 8635 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 14703 0 0
+/js/blank.html 3 0 0 0
+/index.php/admin/index/login/key/25116bdb2c5c3e1716729effe97cda03/ 1 3674 0 0
+/index.php/admin/dashboard/index/key/385b4ce77f4f953913d5a5ad7613519d/ 1 61677 0 0
+/index.php/admin/catalog_category/edit/id/11/key/40d1d47cc00861598058dbb9e2f9d435/ 1 46360 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 4901 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc2LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 35804 0 0
+/index.php/admin/cms_block/index/key/bf293f6a348ee67e8499101ed0728b36/ 1 57045 0 0
+/index.php/admin/cms_wysiwyg_images/contents/key/fd7679c02448f8ab5a51b0436e2a69dc/ 3 14760 0 0
+/index.php/customer/account/login/buy%20oynxtiles 1 27542 0 0
+/index.php/admin/cms_page/edit/page_id/4/key/477ce32117bee9d1b4f164eb4219c605/ 1 70736 0 0
+/index.php/admin/catalog_product/edit/id/4/key/57227000ac40053f3168b5fd0c114c5f/ 2 313696 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 5 24505 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc1LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 34540 0 0
+/index.php/admin/catalog_product_attribute/edit/attribute_id/85/key/2e62182b87b9f95b2ec10ce7a020f3c4/ 1 76257 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/92d8caed1e0221ee68401879bddc09a9/ 5 31940 0 0
+/index.php/admin/dashboard/index/key/246f92c08020ef35e9388979066ef4d6/ 1 61256 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzUuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2799 0 0
+/index.php/admin/catalog_category/index/key/6572166b1e8cfdcb115ac248720550ca/ 1 109377 0 0
+/index.php/admin/catalog_product/index/store/0/key/501242e734f60d04d97f1a1c7feb9f73/ 4 293403 0 0
+/index.php/rustic-gold.html 1 36840 0 0
+/index.php/admin/catalog_product/validate/store/0/id/1/key/8c3aed07055379b085fcc9a85768fa65/ 1 15 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc4LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 42572 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc1LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 12309 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 8575 1 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzkuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2619 0 0
+/index.php/admin/catalog_category/edit/key/6ee061d05a883707a17b98c5ecbacc7c/id/11/ 1 46237 0 0
+/index.php/admin/system_convert_gui/run/id/8/key/48b4ba2ee8010e3a55a7f72e383864fc/files/import-20150426055135-1_TESTCSV.csv/ 1 12356 0 0
+/index.php/admin/cms_block/edit/block_id/2/key/1ac8f950a2bffccc9f72f045282ad0d5/ 1 55412 0 1
+/index.php/admin/system_convert_gui/run/id/8/key/e3ab3143d4cd1adcb048c7704720589a/files/import-20150426004222-1_50importproductdetails.csv/ 1 15959 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/6f7130f510ae33fad441d4c378816c2c/ 2 10090 0 0
+/index.php/admin/cms_page/edit/page_id/4/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 70735 0 0
+/index.php/returns-and-refund 10 295643 0 0
+/index.php/admin/export/index/key/152aa6eabb82d3452c83b2bb2c0250ec/ 1 3674 0 0
+/index.php/customer/account/index/buy%20oynxtiles 1 28725 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/a2l0Y2hlbi1iYXRoLmpwZw--/key/71f367ee051f7493a67f028588f6618b/ 1 2277 0 0
+/index.php/admin/cms_wysiwyg_images/onInsert/key/dcf1e43dd318a83d13ec3491472f6e72/ 8 561 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/df9c618e270d04bb31a4faddbed322dd/ 1 74755 0 0
+/index.php/admin/catalog_category/edit/key/6ee061d05a883707a17b98c5ecbacc7c/id/9/ 1 35459 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzkuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2619 0 0
+/faq 1 21186 1 1
+/index.php/admin/catalog_category/edit/key/6ee061d05a883707a17b98c5ecbacc7c/id/2/ 1 33358 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 208863 0 0
+/index.php/admin/cms_wysiwyg_images/index/key/bf62c910d0aa3bf207e9f5aed287706b/target_element_id/block_content/ 2 13234 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 13365 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/47750c82cfd93bebb016c0e538507097/ 5 348105 0 0
+/index.php/customer/account/create/ 3 86101 0 1
+/index.php/admin/system_convert_gui/edit/id/7/key/20fa3b366e05782c330bcf80e8f5a968/ 3 384991 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/YmFja2dyb3VuZC5qcGc-/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 1837 0 0
+/index.php/admin/cms_block/index/key/ec54f5ab101b4ef3627789fa5fabb2a0/ 4 225943 0 0
+/index.php/admin/dashboard/index/key/22e1628f3bfa7a878c078eb2ef56a4a4/ 1 59399 0 0
+/index.php/admin/cms_page/edit/page_id/7/key/e81ee29de3b3e0d97ae7bbed2107d947/ 2 134998 0 0
+/index.php/admin/catalog_category/index/key/d4a97014edb2f0f832a550c95f408a5b/ 1 109429 0 0
+/index.php/admin/cms_block/index/key/57670a008559bd0c440eabc2c4c00c3a/ 1 57031 0 0
+/kitchen-bath.html 4 102576 2 0
+/index.php/admin/system_convert_gui/index/key/d3d68a5e419545a4b676735d1baebc10/ 3 196298 0 0
+/index.php/admin/cms_wysiwyg_images/treeJson/key/42eff9209d82796edda69ce21e4cde90/ 1 54 0 0
+/index.php/admin/catalog_category/index/key/9654c2b8784decac42950a2ee504aeb1/ 1 109429 0 0
+/index.php/admin/cms_wysiwyg_images/newFolder/key/c87516d8390d1d147209492b7fff3656/ 1 129 0 0
+/index.php/admin/catalog_product_attribute/index/key/7816cdd4be8b12106a874023419ec368/limit/200/form_key/hzxclFffXphMfYun/ 1 208955 0 1
+/index.php/admin/cms_wysiwyg_images/index/key/bf62c910d0aa3bf207e9f5aed287706b/target_element_id/page_content/ 8 52480 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxMC5qcGcifX0,/key/95437ccab6abb18f959898439ddb5223/ 1 7468 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/7c0920ace892b310169ac9f3d16af5f8/ 11 720469 0 0
+/index.php/admin/cms_page/new/key/ae8670e0750a566892de0b403193fcab/ 6 384822 0 0
+/shell/log.php 1 65 1 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/92d8caed1e0221ee68401879bddc09a9/ 5 25715 0 0
+/index.php/admin/system_convert_gui/run/id/8/key/e3ab3143d4cd1adcb048c7704720589a/files/import-20150426003904-1_50importproductdetails.csv/ 2 31903 0 0
+/index.php/admin/dashboard/index/key/ad9b2d98880407178b04eeca18308ee6/ 1 61266 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 12776 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxLmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 7138 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc5LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 13238 0 0
+/index.php/admin/system_convert_gui/run/id/7/key/e3bda3464fdf6378e476681d0de9e379/ 1 5727 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc4LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 10643 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/95437ccab6abb18f959898439ddb5223/ 1 6388 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcyLmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 13013 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bmF0dXJhbC1zdG9uZS1mbG9vcmluZy10aWxlLmpwZw--/key/71f367ee051f7493a67f028588f6618b/ 1 2453 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 5 24505 0 0
+/index.php/flooring/ceramic-porcelain/polished.html 4 103693 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL3BvcmNlbGFpbi1jZXJhbWljLmpwZyJ9fQ,,/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 9802 0 0
+/index.php/admin/cms_block/index/key/2f114ea3fd1d455b7cbd510fbac02171/ 5 285203 0 0
+/index.php/catalog/seo_sitemap/category/index.php/api/xmlrpc 1 28561 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/YmFja2dyb3VuZC5qcGc-/key/71f367ee051f7493a67f028588f6618b/ 1 1837 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/95437ccab6abb18f959898439ddb5223/ 1 4455 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bmF0dXJhbC1zdG9uZS1mbG9vcmluZy10aWxlLmpwZw--/key/347f8aa3e7ff73dbd8e40a6777384f11/ 6 14718 0 0
+/index.php/admin/dashboard/index/key/0b45ce14a1f34f138874a988c9028c7c/ 1 61264 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc3LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 3 24534 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWczLmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 7395 0 0
+/index.php/admin/cms_page/index/key/727a2c12d8b6572e380f3a1b72f99c50/ 11 733176 0 0
+/index.php/admin/catalog_product_attribute/index/key/6d0131747817b3f9dcb1df324892b31a/filter/aXNfZ2xvYmFsPTA=/form_key/VJ0eEN2n1k5rl1hL/ 1 136385 0 0
+/index.php/admin/cms_block/index/key/ae4c86a6b0f9dbedc7c039564c8d3f3a/ 2 111898 0 0
+/index.php/admin/cms_page/edit/page_id/3/back/edit/active_tab/content_section/key/477ce32117bee9d1b4f164eb4219c605/ 9 637595 0 0
+/index.php/customer-service 11 337494 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/47750c82cfd93bebb016c0e538507097/ 5 25715 0 0
+/index.php/customer/account/login/check%20order%20status 1 27542 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/92d8caed1e0221ee68401879bddc09a9/ 5 32080 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcyLmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 9339 0 0
+/index.php/admin/catalog_product/edit/store/0/id/1/key/57227000ac40053f3168b5fd0c114c5f/ 1 136687 0 0
+/index.php/admin/system_convert_gui/edit/id/8/key/108a963c199352de73a4e6429dbfcad4/ 5 649406 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzYuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2563 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc1LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 8635 0 0
+/index.php/admin/system_variable/wysiwygPlugin/key/62ca9cb202cb9efd70576712d1b19d00/ 1 1300 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/6f7130f510ae33fad441d4c378816c2c/ 2 8129 0 0
+/index.php/admin/dashboard/index/key/b4a4078c6364e9bbd50111c6a539b398/ 1 61677 0 0
+/index.php/admin/dashboard/index/key/99a1e1ddccf872e6ea9b49c3e2dce9cd/ 1 61675 0 0
+/index.php/flooring/natural-stone.html 13 364754 2 2
+/flooring/natural-stone/granite.html 1 49462 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/content_section/key/14d944f42d77bb934ff654125f4d30f6/ 1 74922 0 0
+/index.php/admin/dashboard/index/key/20eb8c185fa7c9b867cbd99fec1325c7/ 1 61267 0 0
+/index.php/faq 6 126946 0 1
+/index.php/admin/dashboard/index/key/48cb14a937f18749d30976e75c8b6377/ 1 61267 0 0
+/index.php/admin/cms_wysiwyg_images/index/key/0ec684904ccc9df7e85edad1e3733038/target_element_id/page_content/ 1 6547 0 0
+/index.php/admin/catalog_product_attribute/index/key/59d1ef6b4ce1ef4c99d07dc6ebec13b3/ 1 87806 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzQuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2530 0 0
+/index.php/admin/cms_page/edit/page_id/9/back/edit/active_tab/content_section/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 67984 0 0
+/index.php/admin/cms_wysiwyg_images/onInsert/key/5364a20e71059299ee164896f6bbbcec/ 1 134 1 0
+/index.php/admin/dashboard/index/key/961f2d57f2b9166f936fe637471c85cd/ 1 61675 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzcuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2426 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 19248 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc5LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 9564 0 0
+/index.php/admin/cms_wysiwyg_images/treeJson/key/c606eb2081db5e9154c0ece3ead97af3/ 3 110 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bGFuZHNjYXBlLmpwZw--/key/71f367ee051f7493a67f028588f6618b/ 1 2991 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzEwLmpwZw--/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 1991 0 0
+/index.php/product-lines.html 14 356611 1 1
+/index.php/admin/catalog_product/index/key/8e0bd54ae8ecb8a3a4ccb54519dc79f8/ 2 146260 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/95437ccab6abb18f959898439ddb5223/ 1 69621 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/95437ccab6abb18f959898439ddb5223/ 1 5143 0 0
+/index.php/admin/catalog_product_attribute/index/key/fe316338c7a56e6583aa6e3e2e02c708/ 2 175594 0 0
+/get.php/media/dhl/info.php 1 106 0 0
+/index.php/admin/cms_page/edit/page_id/9/back/edit/active_tab/content_section/key/477ce32117bee9d1b4f164eb4219c605/ 13 1241601 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bGFuZHNjYXBlLmpwZw--/key/347f8aa3e7ff73dbd8e40a6777384f11/ 6 17946 0 0
+/index.php/admin/widget/index/key/c599ff5d22896d84d2c8cf85ec101a91/widget_target_id/page_content 2 6190 0 0
+/index.php/customer/account/index/meshed%20pebbles 1 28725 0 0
+/index.php/catalog/seo_sitemap/category/ 3 86075 0 0
+/index.php/admin/catalog_category/edit/key/40d1d47cc00861598058dbb9e2f9d435/ 2 85530 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/95437ccab6abb18f959898439ddb5223/ 1 6416 0 0
+/get.php/media/dhl/.htaccess 1 463 1 0
+/index.php/admin/dashboard/index/key/97342d70d33f84d2a1432fd4142b78d1/ 1 61677 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/47750c82cfd93bebb016c0e538507097/ 5 32080 0 0
+/index.php/flooring/natural-stone/limestone.html 1 26184 0 0
+/index.php/admin/system_convert_gui/batchRun/key/2c5ffd804edc004d4255ca9f306f4350/ 2 176 0 0
+/index.php/admin/catalog_product_attribute/index/key/6d0131747817b3f9dcb1df324892b31a/ 3 505803 0 0
+/index.php/admin/cms_page/index/key/57eacaaf2f157144df7cf19d2e2a8f4f/ 1 66547 0 0
+/index.php/admin/system_convert_gui/edit/id/8/key/8045dcb3c458bb89e096716786c13aa3/ 5 649088 0 0
+/index.php/admin/dashboard/index/key/ec8ce7ecf12a1a082448b9d0665989f4/ 1 59409 0 0
+/index.php/customer/account/login/meshed%20pebbles 1 27542 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/af816c64cb16d584816383f509b3b2cd/ 1 59596 0 0
+/index.php/admin/dashboard/index/key/32733d743c526f86c4fb86c92776c57b/ 1 60951 0 0
+/index.php/admin/catalog_category/categoriesJson/key/32fde4d57da8442246b96d80beebc58a/ 2 1829 0 0
+/index.php/flooring.html 13 348467 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/a2l0Y2hlbi1iYXRoLmpwZw--/key/347f8aa3e7ff73dbd8e40a6777384f11/ 6 13662 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzMuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2147 0 0
+/index.php/admin/dashboard/index/key/179971a8422180fc810c8fa6e4254e73/ 1 61677 0 0
+/index.php/admin/export/index/key/52bd2591b0a9af0e572f1c18f3c0885b/ 1 48725 0 0
+/index.php/admin/catalog_product_attribute/edit/attribute_id/91/key/bdfbc7ac5e5fd35a96e657bd5bb9aa85/back/edit/tab/product_attribute_tabs_main/ 1 76508 0 1
+/index.php/privacy-policy-cookie-restriction-mode 12 397391 0 0
+/index.php/landscape/strictly-outdoor/pavers-pre-packet-kits.html 5 130134 0 0
+/media/dhl/info.php 1 106 0 1
+/index.php/admin/cms_block/edit/block_id/1/key/1ac8f950a2bffccc9f72f045282ad0d5/ 1 59263 0 0
+/index.php/admin/cms_block/new/key/c24c74bbdf0da4f3049d971fba7a3426/ 1 54121 0 0
+/index.php/admin/cms_block/index/key/3074d01ce9c6236519db68693da64e2f/ 1 57048 0 0
+/index.php/customer/account/login/buy%20ceramic%20and%20procelain 1 27542 0 0
+/index.php/catalog/seo_sitemap/category/api/xmlrpc 1 28561 1 0
+/index.php/admin/cms_block/edit/block_id/2/key/10ae8eb978b17d7384184762ca9efe8f/ 1 55422 0 0
+/index.php/catalogsearch/advanced 10 316853 1 2
+/index.php/admin/catalog_product/index/key/05b7bde94327d0422436f344a6187a4e/ 1 73129 0 0
+/index.php/admin/cms_wysiwyg_images/contents/key/f9b431e3abeeefd7791ae66f4777be3f/ 3 10131 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zYWljLWFjY2Vzc29yaWVzLmpwZw--/key/71f367ee051f7493a67f028588f6618b/ 1 2910 0 0
+/flooring/natural-stone.html 9 252522 0 0
+/index.php/admin/cms_page/index/key/48c4dcf1bd276138052b2cebcbeeea3e/ 1 66546 0 0
+/index.php/admin/system_convert_gui/new/key/b972c87cb0cb5fc1d00c4d2d5f15a8be/ 1 116389 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2xhbmRzY2FwZS5qcGcifX0,/key/3d80c11dc1fba4a834368b59b113678d/ 12 76992 0 0
+/index.php/customer/account/login/customer%20service 1 27542 0 0
+/index.php/admin/catalog_category/index/key/ba457b58d7e3dce56c5b3ddf3e5a52b8/ 2 223082 0 0
+/index.php/admin/catalog_product_attribute/validate/attribute_id/91/key/ec3ba05f4b29b8c89744855a1e447af7/ 1 15 0 0
+/index.php/admin/cms_block/edit/block_id/5/key/1ac8f950a2bffccc9f72f045282ad0d5/ 1 54849 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/92d8caed1e0221ee68401879bddc09a9/ 5 22275 0 0
+/index.php/admin/dashboard/index/key/f9c3dd34e5dda5f950ad58c00a446062/ 1 61267 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzEuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2230 0 0
+/index.php/admin/cms_page/save/back/edit/active_tab/content_section/page_id/3/key/2a4efa0cc4909c5fdb44d38c038ad510/ 1 3674 0 0
+/index.php/landscape.html 9 240597 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/5510f619110f379604293100400b7f2a/ 1 59593 0 0
+/index.php/customer/account/index/buy%20marble%20tiles 2 57450 0 0
+/index.php/admin/catalog_product/validate/id/4/key/8c3aed07055379b085fcc9a85768fa65/ 1 15 0 0
+/index.php/admin/catalog_product_attribute/validate/attribute_id/85/key/02acb1b55a04f6c61f816ac50332a2a8/ 1 15 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc4LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 14317 0 0
+/index.php/admin/catalog_category/edit/key/40d1d47cc00861598058dbb9e2f9d435/id/2/ 1 33358 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/a2l0Y2hlbi1iYXRoLmpwZw--/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2277 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2tpdGNoZW4tYmF0aC5qcGcifX0,/key/47750c82cfd93bebb016c0e538507097/ 5 22275 0 0
+/landscape.html 7 188391 0 2
+/index.php/admin/catalog_product_attribute/validate/attribute_id/71/key/02acb1b55a04f6c61f816ac50332a2a8/ 1 15 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/content_section/key/7c0920ace892b310169ac9f3d16af5f8/yourimage.file 6 396304 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc3LmpwZyJ9fQ,,/key/92d8caed1e0221ee68401879bddc09a9/ 4 32712 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc3LmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 11852 0 0
+/index.php/checkout/onepage/ 1 119159 0 0
+/product-lines.html 3 76893 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/73134e228632b7a6cfe6b53892bad8fb/ 13 772559 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzUuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2799 0 0
+/info.php/admin 1 83457 0 0
+/index.php/flooring/natural-stone/granite/ramon-gold.html 12 409860 0 1
+/index.php/flooring/natural-stone/granite/rustic-gold.html 7 269544 0 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc3LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 8178 0 0
+/index.php/sales/guest/form/order/guest/form 1 26963 0 0
+/index.php/admin/system_convert_gui/edit/id/1/key/20fa3b366e05782c330bcf80e8f5a968/ 1 128225 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/cG9yY2VsYWluLWNlcmFtaWMuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2337 0 0
+/index.php/admin/dashboard/index/key/d5707bce563e900514965753cfd0626d/ 1 61675 0 1
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc2LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 8951 0 0
+/index.php/admin/cms_wysiwyg_images/upload/key/47bd3b0539957f5018c576cff552e534/ 7 2129 0 0
+/index.php/flooring/as-per-application/rectangular-tiles.html 1 26245 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/cG9yY2VsYWluLWNlcmFtaWMuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2337 0 0
+/flooring/ceramic-porcelain.html 4 122224 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/3d80c11dc1fba4a834368b59b113678d/ 12 76656 0 0
+/index.php/admin/cms_block/edit/block_id/6/key/af816c64cb16d584816383f509b3b2cd/ 4 219187 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/design_section/key/7c0920ace892b310169ac9f3d16af5f8/ 1 65361 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcxLmpwZyJ9fQ,,/key/6f7130f510ae33fad441d4c378816c2c/ 2 10812 0 0
+/index.php/admin/catalog_product_attribute/index/key/59d1ef6b4ce1ef4c99d07dc6ebec13b3/limit/200/form_key/t5i6W9KS9DGgcFsQ/ 1 208953 0 1
+/index.php/admin/catalog_category/edit/key/70be4cff53eb4f9ea3ef1e509c68cc05/ 1 42721 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzEwLmpwZw--/key/71f367ee051f7493a67f028588f6618b/ 1 1991 0 0
+/index.php/admin/cms_page/edit/page_id/2/back/edit/active_tab/content_section/key/477ce32117bee9d1b4f164eb4219c605/ 3 225613 0 0
+/index.php/admin/cms_page/edit/page_id/3/key/477ce32117bee9d1b4f164eb4219c605/ 2 141343 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL25hdHVyYWwtc3RvbmUtZmxvb3JpbmctdGlsZS5qcGcifX0,/key/3d80c11dc1fba4a834368b59b113678d/ 12 61716 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzguanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2946 0 0
+/index.php/enable-cookies 10 295650 10 10
+/index.php/admin/catalog_category/save/key/c18ce682261e78b63f99e99cf02c7102/id/11/ 1 193 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bGFuZHNjYXBlLmpwZw--/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2991 0 0
+/index.php/admin/cms_page/edit/page_id/9/back/edit/active_tab/design_section/key/477ce32117bee9d1b4f164eb4219c605/ 1 67980 0 0
+/index.php/admin/cms_block/index/key/48930d2b87276908c5c9efbeb2684bb2/ 8 456878 0 0
+/index.php/kitchen-bath.html 14 357794 0 1
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzcuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2426 0 0
+/index.php/admin/cms_page/edit/page_id/10/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 71120 0 0
+/index.php/admin/cms_page/index/key/fccd365cccdbae15a09d15bee463ddda/ 2 70212 0 0
+/index.php/catalogsearch/ajax/suggest/ 9 0 0 0
+/index.php/admin/system_convert_gui/run/id/8/key/e3ab3143d4cd1adcb048c7704720589a/files/import-20150426003215-1_50importproductdetails.csv/ 3 47784 0 0
+/index.php/admin/catalog_category/edit/key/70be4cff53eb4f9ea3ef1e509c68cc05/id/11/ 1 46235 0 0
+/index.php/admin/catalog_product_attribute/edit/attribute_id/91/key/bdfbc7ac5e5fd35a96e657bd5bb9aa85/ 1 76336 0 0
+/index.php/admin/catalog_product/validate/store/0/id/2/key/8c3aed07055379b085fcc9a85768fa65/ 1 15 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/6f7130f510ae33fad441d4c378816c2c/ 2 73295 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc4LmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 10643 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWc0LmpwZyJ9fQ,,/key/95437ccab6abb18f959898439ddb5223/ 1 9401 0 0
+/skin/adminhtml/default/default/media/uploader.swf 2 474088 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc3QtcG9wLWZlYS1pbWcyLmpwZyJ9fQ,,/key/47750c82cfd93bebb016c0e538507097/ 1 9339 0 0
+/index.php/flooring/natural-stone/granite/copper.html 12 412491 0 0
+/index.php/admin/export/getFilter/key/5b2efccb437c7e56991f39ca2578de4d/entity/catalog_product 1 118698 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzEuanBn/key/71f367ee051f7493a67f028588f6618b/ 1 2230 0 0
+/index.php/durango-cream.html 1 33459 0 1
+/index.php/contacts/ 7 181251 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL2JhY2tncm91bmQuanBnIn19/key/2d2fb84746f78dfab12f989b0e4cb802/ 2 139242 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzQuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2530 0 1
+/index.php/admin/catalog_category/edit/key/40d1d47cc00861598058dbb9e2f9d435/id/8/ 1 35399 0 0
+/index.php/admin/index/index/key/33b56110b23afefce80cde4d64559fac/ 1 3674 0 0
+/index.php/admin/index/index/key/1544fe41f3bc2714da13f377f2aaa9cf/ 1 3674 0 1
+/js/tiny_mce/plugins/searchreplace/searchreplace.htm 2 10668 0 0
+/index.php/admin/catalog_product/validate/id/6/key/8c3aed07055379b085fcc9a85768fa65/ 2 30 0 0
+/index.php/catalogsearch/advanced/result/ 1 24851 0 0
+/index.php/admin/cms_page/index/key/cd4df15a4ff703dc8eab17422a0dbe94/ 1 66512 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/cG9yY2VsYWluLWNlcmFtaWMuanBn/key/347f8aa3e7ff73dbd8e40a6777384f11/ 6 14022 0 0
+/index.php/admin/catalog_category/categoriesJson/key/5454f085236c386ec0e127bb8857e27b/ 2 1829 0 0
+/index.php/admin/cms_block/edit/block_id/1/key/10ae8eb978b17d7384184762ca9efe8f/ 2 119190 0 0
+/index.php/admin/system_convert_gui/index/key/f1fb740d2ca49999c993318a1189e8be/ 1 67248 0 0
+/index.php/admin/cms_page/edit/page_id/11/back/edit/active_tab/content_section/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 83332 0 0
+/index.php/admin/cms_wysiwyg/directive/___directive/e3ttZWRpYSB1cmw9Ind5c2l3eWcvaW1hZ2VzL21vc2FpYy1hY2Nlc3Nvcmllcy5qcGcifX0,/key/7804e5281ed8f7b6a92de2d349fcb2cb/ 3 19164 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zYWljLWFjY2Vzc29yaWVzLmpwZw--/key/347f8aa3e7ff73dbd8e40a6777384f11/ 6 17460 0 0
+/index.php/admin/cms_wysiwyg_images/thumbnail/file/bW9zdC1wb3AtZmVhLWltZzIuanBn/key/b9a28d4f6d617b122695e12337cc9cf3/ 1 2458 0 0
+/index.php/admin/cms_page/edit/page_id/8/key/e81ee29de3b3e0d97ae7bbed2107d947/ 1 67784 0 0
+/api/xmlrpc 2 576 0 1
+/index.php/admin/cms_page/edit/page_id/2/key/814d4523364ec1f9eeb5f3921f5bb71a/ 3 82217 0 0
+/index.php/admin/catalog_category/save/key/1b16f33772507f301d7690ee45f95016/id/11/ 1 193 0 0
+/index.php/admin/cms_wysiwyg_images/onInsert/key/81ce145fa66ab3bff98f89078d3586da/ 2 146 0 0
+/index.php/admin/catalog_product_attribute/index/key/6d0131747817b3f9dcb1df324892b31a/limit/100/form_key/VJ0eEN2n1k5rl1hL/ 1 208964 0 0
+/index.php/ramon-gold.html 7 236656 0 0
+/index.php/admin/catalog_category/edit/key/40d1d47cc00861598058dbb9e2f9d435/id/9/ 1 35459 0 0
+/index.php/admin/cms_page/edit/page_id/2/key/3060af5b056a4e85060ab529a13cb27b/ 3 137879 1 0
+END_SIDER

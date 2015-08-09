@@ -1,0 +1,54 @@
+<?php
+ $currentUrl = $this->helper('core/url')->getCurrentUrl();
+ $product_name = $this->getProduct()->getName();
+?> 
+<div class="box simple_contact">
+ 
+<form id="simple_contact_form" name="simple_contact_form" action="<?php echo $this->getUrl('inchoo-simplecontact/') ?>index/sendemail" method="post">
+ 
+    <fieldset class="group-select">
+        <h4 class="legend">Make An Offer on <?php echo $product_name?></h4>
+        <ul>
+        <li>
+				<input type="hidden" value="<?php echo ($product_name);?>" name="productname">
+                <div class="input-box">
+                    <label for="name">your name <span class="required"></span></label><br />
+					<input name="urlnm" id="urlnm" title="urlnm" value="<?php echo ($currentUrl); ?>" class="required-entry input-text" type="hidden" />
+                    <input name="name" id="name" title="Name" value="" class="required-entry input-text" type="text" />
+                </div>
+ 
+                <div class="input-box">
+                    <label for="email">your email <span class="required"></span></label><br />
+                    <input name="email" id="email" title="Email" value="" class="required-entry input-text validate-email" type="text" />
+                </div>
+ 
+                <div class="clear"></div>
+ 
+                <div class="input-box">
+           &nbsp;        <label for="comment">Phone No.<span class="required"></span></label><br />
+				<input name="phoneno" id="phoneno" title="phoneno" value="" class="required-entry validate-number input-text" type="text" />
+                </div>
+				<div class="sf">
+           &nbsp;        <label for="comment">SF<span class="required"></span></label><br />
+				<input name="sf" id="sf" title="sf" value="" class="required-entry validate-number input-text" type="text" />
+                </div>
+				<div class="bid-price">
+           &nbsp;        <label for="comment">Bid Price<span class="required"></span></label><br />
+				<input name="BidPrice" id="BidPrice" title="BidPrice" value="" class="required-entry validate-number input-text" type="text" />
+                </div>
+                </li>
+                </ul>
+    </fieldset>
+    <div class="button-set">
+        <p class="required">* Required Fields</p>
+        <button class="form-button" type="submit"><span>Submit</span></button>
+ 
+    </div>
+</form>
+ 
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    var contactForm = new VarienForm('simple_contact_form', true);
+//]]>
+</script>

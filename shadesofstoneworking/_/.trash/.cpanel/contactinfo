@@ -1,0 +1,14 @@
+--- 
+"email": 'premierworldwide@outlook.com'
+"ip": '65.122.111.70'
+"notify_account_login": 0
+"notify_account_login_notification_disabled": 0
+"notify_bandwidth_limit": 1
+"notify_contact_address_change": 0
+"notify_contact_address_change_notification_disabled": 0
+"notify_disk_limit": 1
+"notify_email_quota_limit": 1
+"notify_password_change": 0
+"notify_password_change_notification_disabled": 0
+"origin": 'cpanel'
+"second_email": 'rsdewan@hotmail.com'

@@ -1,0 +1,20 @@
+--- 
+__version: '2.1'
+shadesofstone.com: 
+  account_count: 3
+  accounts: 
+    csr: 
+      disk_mtime: '1428938031'
+      diskquota: 262144000
+      diskused: 12299
+    info: 
+      disk_mtime: '1428938031'
+      diskquota: 262144000
+      diskused: 14953
+    rd: 
+      disk_mtime: '1428938031'
+      diskquota: 0
+      diskused: 202302
+  disk_mtime: '1428938031'
+  passwd_mtime: '1428938031'
+  quota_mtime: '1428938031'

@@ -1,0 +1,181 @@
+Return-path: <ebay@ebay.com>
+Envelope-to: rd@shadesofstone.com
+Delivery-date: Thu, 09 Apr 2015 19:03:23 -0700
+Received: from mxslcpool51.ebay.com ([66.135.215.117]:37369)
+	by p3plcpnl0579.prod.phx3.secureserver.net with esmtps (TLSv1:DHE-RSA-AES256-SHA:256)
+	(Exim 4.85)
+	(envelope-from <ebay@ebay.com>)
+	id 1YgOHz-00006D-HH
+	for rd@shadesofstone.com; Thu, 09 Apr 2015 19:03:23 -0700
+Received: from slc5b01c-604e (slc5b01c-604e.stratus.slc.ebay.com [10.121.68.34])
+	by mxslcpool51.ebay.com (8.14.4/8.14.4) with ESMTP id t3A23Lgi021702
+	for <rd@shadesofstone.com>; Thu, 9 Apr 2015 19:03:22 -0700
+X-DKIM: Sendmail DKIM Filter v2.8.3 mxslcpool51.ebay.com t3A23Lgi021702
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=ebay.com; s=dkim1k;
+	t=1428631402; bh=qv3eL0D9scKX6/oLzWqdkuobQ68=;
+	h=Message-ID:Date:From:Reply-To:To:Subject:Mime-Version:
+	 Content-Type;
+	b=OMeA2Tmvib4/ZDY/2S2i1ijKagFyMMYRIov+HpfbkSxHJTwTeWDJCdVAZEveN3fyf
+	 kyexU6KHIs5hTg2jcF2wNCK8+TxHZgd1lNYVpy+iM8yZuyQA+J+sLVSDqpyIflkFqd
+	 yMETXK4s8cvvMllHG2oCk9G2Bh85H5qe+OI+Wuss=
+Message-ID: <1238976985.1428631401751.JavaMail.SYSTEM@slc5b01c-604e>
+Date: Thu, 9 Apr 2015 19:03:21 -0700 (MST)
+From: eBay <ebay@ebay.com>
+Reply-To: ebay@ebay.com
+To: rd@shadesofstone.com
+Subject: eBay Change Email Confirmation - Response Required
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=2111405529.1428631401704.JavaMail.SYSTEM.slc5b01c-604e
+X-eBay-MailTracker: 10010.917.0.0.e9de3e7913924c69879cdf52314d3fc7
+X-eBay-MailVersionTracker: 917.17454888
+
+--2111405529.1428631401704.JavaMail.SYSTEM.slc5b01c-604e
+Content-Type: text/plain;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+-----------------------------------------------------------------
+eBay sent this message to Rahul Dewan (shadesofstone).
+Your registered name is included to show this message originated from eBay.
+Learn more at http://pages.ebay.com/help/confidence/name-userid-emails.html
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+eBay Change Email Confirmation - Response Required
+-----------------------------------------------------------------
+
+Hi shadesofstone,
+To confirm your email address on file at eBay, just click the button to the=
+=20
+right:
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+http://rover.ebay.com/rover/0/e10010.m44.l1134/7?euid=3De9de3e7913924c69879=
+cdf52314d3fc7&loc=3Dhttps%3A%2F%2Fscgi.ebay.com%2Fws%2FeBayISAPI.dll%3FChan=
+geEmailSuccess%26confirmcode%3DN6hPh%26ssPageName%3DADME%3AR%3ARC%3AUS%3A11=
+34
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+-----------------------------------------------------------------
+If the above link does not work:
+-----------------------------------------------------------------
+1.Write down this confirmation code: N6hPh
+
+2.Type in or copy and paste this link into your Web browser:=20
+https://scgi.ebay.com/ws/eBayISAPI.dll?ChangeEmailSuccess
+
+3.Enter your confirmation code.
+
+If you need additional help, contact eBay's Customer Support=20
+http://pages.ebay.com/help/contact_us/_base/index.html
+
+-----------------------------------------------------------------
+Email reference id: [#e9de3e7913924c69879cdf52314d3fc7#]
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Learn how you can protect yourself from spoof (fake) emails at:=20
+http://pages.ebay.com/education/spooftutorial/index.html.
+
+eBay sent this email to you at manishd007@yahoo.com about your account=20
+registered on http://www.ebay.com.
+
+eBay will periodically send you required emails about the site and your=20
+transactions. Visit our Privacy Policy at=20
+http://pages.ebay.com/help/policies/privacy-policy.html and User Agreement=
+=20
+at http://pages.ebay.com/help/policies/user-agreement.html if you have any=
+=20
+questions.
+
+Copyright =C2=A9 2015 eBay Inc. All Rights Reserved.
+Designated trademarks and brands are the property of their respective=20
+owners.
+eBay and the eBay logo are trademarks of eBay Inc.
+eBay Inc. is located at 2145 Hamilton Avenue, San Jose, CA 95125.
+
+
+--2111405529.1428631401704.JavaMail.SYSTEM.slc5b01c-604e
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body><div id=3D"Header"><div><table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td width=3D"100%" style=
+=3D"word-wrap:break-word"><table cellpadding=3D"2" cellspacing=3D"3" border=
+=3D"0" width=3D"100%"><tr><td width=3D"1%" nowrap=3D"nowrap"><img src=3D"ht=
+tps://securepics.ebaystatic.com/aw/pics/logos/ebay_95x39.gif" height=3D"39"=
+ width=3D"95" alt=3D"eBay"></td><td align=3D"left" valign=3D"bottom"><span =
+style=3D"font-weight:bold; font-size:xx-small; font-family:verdana, sans-se=
+rif; color:#666"><b>eBay sent this message to Rahul Dewan (shadesofstone).<=
+/b><br></span><span style=3D"font-size:xx-small; font-family:verdana, sans-=
+serif; color:#666">Your registered name is included to show this message or=
+iginated from eBay. <a href=3D"http://pages.ebay.com/help/confidence/name-u=
+serid-emails.html">Learn more</a>.</span></td></tr></table></td></tr></tabl=
+e></div></div><div id=3D"Title"><div><table style=3D"background-color:#ffe6=
+80" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td=
+ width=3D"8" valign=3D"top"><img src=3D"https://securepics.ebaystatic.com/a=
+w/pics/globalAssets/ltCurve.gif" height=3D"8" width=3D"8" alt=3D""></td><td=
+ valign=3D"bottom" width=3D"100%"><span style=3D"font-weight:bold; font-siz=
+e:14pt; font-family:arial, sans-serif; color:#000; margin:2px 0 2px 0">eBay=
+ Change Email Confirmation - Response Required</span></td><td width=3D"8" v=
+align=3D"top" align=3D"right"><img src=3D"https://securepics.ebaystatic.com=
+/aw/pics/globalAssets/rtCurve.gif" height=3D"8" width=3D"8" alt=3D""></td><=
+/tr><tr><td style=3D"background-color:#fc0" colspan=3D"3" height=3D"4"></td=
+></tr></table></div></div><div id=3D"SingleItemCTA"><div><table border=3D"0=
+" cellpadding=3D"2" cellspacing=3D"3" width=3D"100%"><tr><td><font style=3D=
+"font-size:10pt; font-family:arial, sans-serif; color:#000">Hi shadesofston=
+e,<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><t=
+r><td><img src=3D"https://securepics.ebaystatic.com/aw/pics/s.gif" height=
+=3D"10" alt=3D" "></td></tr></table>To confirm your email address on file a=
+t eBay, just click the button to the right:<table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td><img src=3D"https://securep=
+ics.ebaystatic.com/aw/pics/s.gif" height=3D"10" alt=3D" "></td></tr></table=
+></font><td valign=3D"top" width=3D"185"><div><a href=3D"http://rover.ebay.=
+com/rover/0/e10010.m44.l1134/7?euid=3De9de3e7913924c69879cdf52314d3fc7&amp;=
+loc=3Dhttps%3A%2F%2Fscgi.ebay.com%2Fws%2FeBayISAPI.dll%3FChangeEmailSuccess=
+%26confirmcode%3DN6hPh%26ssPageName%3DADME%3AR%3ARC%3AUS%3A1134" title=3D"h=
+ttp://rover.ebay.com/rover/0/e10010.m44.l1134/7?euid=3De9de3e7913924c69879c=
+df52314d3fc7&amp;loc=3Dhttps%3A%2F%2Fscgi.ebay.com%2Fws%2FeBayISAPI.dll%3FC=
+hangeEmailSuccess%26confirmcode%3DN6hPh%26ssPageName%3DADME%3AR%3ARC%3AUS%3=
+A1134"><img src=3D"https://securepics.ebaystatic.com/aw/pics/buttons/btnCon=
+firmEmail.gif" border=3D"0" height=3D"32" width=3D"120"></img></a><br><span=
+ style=3D"font-style:italic; font-size:8pt; font-family:arial, sans-serif; =
+color:#000"></span></div></td></td></tr></table><br></div></div><div id=3D"=
+EmailDetails"><div><table style=3D"border:1px solid #ddd" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"100%"><tr style=3D"background-colo=
+r:#eee"><td style=3D"font-weight:bold; font-size:10pt; font-family:arial, s=
+ans-serif; color:#000" colspan=3D"2">If the above link does not work:</td><=
+/tr><tr><td style=3D"font-size:10pt; font-family:arial, sans-serif; color:#=
+000">1.Write down this confirmation code: N6hPh<br>2.Type in or copy and pa=
+ste this link into your Web browser: <br><a href=3D"https://scgi.ebay.com/w=
+s/eBayISAPI.dll?ChangeEmailSuccess">https://scgi.ebay.com/ws/eBayISAPI.dll?=
+ChangeEmailSuccess</a><br>3.Enter your confirmation code.<br><br>If you nee=
+d additional help, contact <a href=3D"http://pages.ebay.com/help/contact_us=
+/_base/index.html">eBay's Customer Support</a> </td></tr></table></div></di=
+v><div id=3D"Footer"><div><hr style=3D"HEIGHT: 1px"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tr><td width=3D"100%"><fon=
+t style=3D"font-size:8pt; font-family:arial, sans-serif; color:#000000">Ema=
+il reference id: [#e9de3e7913924c69879cdf52314d3fc7#]</font></td></tr></tab=
+le><br></div><hr style=3D"HEIGHT: 1px"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tr><td width=3D"100%"><font style=3D"fo=
+nt-size:xx-small; font-family:verdana; color:#666"><a href=3D"http://pages.=
+ebay.com/education/spooftutorial/index.html">Learn More</a> to protect your=
+self from spoof (fake) emails.<br><br>eBay sent this email to you at manish=
+d007@yahoo.com about your account registered on <a href=3D"http://www.ebay.=
+com">www.ebay.com</a>.<br><br>eBay will periodically send you required emai=
+ls about the site and your transactions. Visit our <a href=3D"http://pages.=
+ebay.com/help/policies/privacy-policy.html">Privacy Policy</a> and <a href=
+=3D"http://pages.ebay.com/help/policies/user-agreement.html">User Agreement=
+</a> if you have any questions.<br><br>Copyright =C2=A9 2015 eBay Inc. All =
+Rights Reserved. Designated trademarks and brands are the property of their=
+ respective owners. eBay and the eBay logo are trademarks of eBay Inc. eBay=
+ Inc. is located at 2145 Hamilton Avenue, San Jose, CA 95125.  </font></td>=
+</tr></table><img src=3D"http://rover.ebay.com/roveropen/0/e10010/7?euid=3D=
+e9de3e7913924c69879cdf52314d3fc7&amp;" height=3D"1" width=3D"1"></div></bod=
+y></html>
+--2111405529.1428631401704.JavaMail.SYSTEM.slc5b01c-604e--
+

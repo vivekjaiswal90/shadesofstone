@@ -1,0 +1,109 @@
+<div class="footer-container">
+    <div class="footer">
+        <div>
+<style><!--
+element {
+}
+.full-width {
+width: 33.3%;
+float: left;
+}
+.full-width-02 {
+width: 50%;
+float: left;
+}
+.col-lg-6{
+width: 50%;
+}
+
+.foot-cntct-info ul.cntct-list{
+float: left;
+width: 100%;
+margin-bottom: 10px;
+}
+--></style>
+</div>
+<article class="col-lg-6">
+<div class="full-width">
+<h3>COMPANY</h3>
+<ul>
+<li><a href="about us">About Us</a></li>
+<li><a href="contact us">Contact Us</a></li>
+<li><a href="customer service">Customer Service</a></li>
+<li class="last privacy"><a href="http://localhost/projects/magento/index.php/privacy-policy-cookie-restriction-mode?___SID=U">Privacy Policy</a></li>
+<li><a href="check order status">Check Order Status</a></li>
+<li><a href="shipping and delivery">Shipping and Delivery</a></li>
+<li><a href="returns and refund">Returns &amp;Refund</a></li>
+<li><a href="privacy policy">Privacy Policy</a></li>
+<li><a href="sitemap">Sitemap</a></li>
+<li><a href="advanced search">Advanced Search</a></li>
+</ul>
+</div>
+<div class="full-width">
+<h3>RESOURCES</h3>
+<ul>
+<li><a href="faq">FAQ</a></li>
+<li><a href="roome scene visualizer">Room Scene Visualizer</a></li>
+<li><a href="caring and cleaning">Caring &amp; Cleaning</a></li>
+<li><a href="order a sample">Order a Sample</a></li>
+<li><a href="industry glossary">Industry Glossary</a></li>
+<li><a href="material facts">Material Facts</a></li>
+<li><a href="factory direct prices">Factory Direct Prices</a></li>
+<li><a href="odering process">Odering Process</a></li>
+<li><a href="terms of sale">Terms of Sale</a></li>
+<li><a href="terms of use">Terms of Use</a></li>
+</ul>
+</div>
+<div class="full-width">
+<h3>VISUALIZER</h3>
+<ul>
+<li><a href="room cene visualizer">Room Scene Visualizer</a></li>
+<li><a href="kitchen visualizer">Kitchen Visualizer</a></li>
+<li><a href="bathroom visualizer">Bathroom Visualizer</a></li>
+<li><a href="ledger panel visualizer">Ledger Panel Visualizer</a></li>
+<li><a href="edge profile visualizer">Edge Profile Visualizer</a></li>
+<li><a href="room scenes">Room Scene</a></li>
+</ul>
+</div>
+</article>
+<div>
+<article class="col-lg-6">
+<div class="full-width-02">
+<h3>TILES</h3>
+<ul>
+<li><a href="buy ceramic and procelain">Buy Ceramic &amp; Procelain Tiles</a></li>
+<li><a href="buy granite tiles">Buy Granite Tiles</a></li>
+<li><a href="buy marble tiles">Buy Marble Tiles</a></li>
+<li><a href="meshed pebbles">Meshed Pebbles</a></li>
+<li><a href="buy oynxtiles">Buy Onyx Tiles</a></li>
+<li><a href="buy slater">Buy Slate / Quatzite Tiles</a></li>
+<li><a href="buy travertine">Buy Travertine Tiles</a></li>
+<li><a href="buy baseboards">Buy Baseboards</a></li>
+</ul>
+</div>
+<div class="full-width-02">
+<h3>CONTACT US</h3>
+<div class="foot-cntct-info">
+<ul class="cntct-list">
+<li>
+<p><strong>Call Us:-</strong> 703-409-3262</p>
+</li>
+<li>
+<p><strong>Email:- </strong></p>
+<p><strong>Location:-</strong>Atlanta,GA Dallas, TX Irvine, CA Phoenix, AZ|Chicago,IL Houston, TX Newark, NJ</p>
+</li>
+</ul>
+</div>
+<h3>FOLLOW US</h3>
+</div>
+</article>
+</div><ul class="links">
+                        <li class="first" ><a href="http://localhost/projects/magento/index.php/catalog/seo_sitemap/category/?___SID=U" title="Site Map" >Site Map</a></li>
+                                <li ><a href="http://localhost/projects/magento/index.php/catalogsearch/term/popular/?___SID=U" title="Search Terms" >Search Terms</a></li>
+                                <li ><a href="http://localhost/projects/magento/index.php/catalogsearch/advanced/?___SID=U" title="Advanced Search" >Advanced Search</a></li>
+                                <li ><a href="http://localhost/projects/magento/index.php/sales/guest/form/?___SID=U" title="Orders and Returns" >Orders and Returns</a></li>
+                                <li class=" last" ><a href="http://localhost/projects/magento/index.php/contacts/?___SID=U" title="Contact Us" >Contact Us</a></li>
+            </ul>
+        <address>&copy; 2014 Magento Demo Store. All Rights Reserved.</address>
+    </div>
+</div>

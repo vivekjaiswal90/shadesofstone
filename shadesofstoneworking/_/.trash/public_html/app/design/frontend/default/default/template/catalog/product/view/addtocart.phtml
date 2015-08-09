@@ -1,0 +1,135 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     rwd_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<script>
+function chkstatus(chk)
+{
+	if(chk.checked)
+	{
+		
+		document.getElementById("addtocart").style.display="none";
+		document.getElementById("sample").style.display="block";
+	}
+	else
+	{
+		
+		document.getElementById("addtocart").style.display="block";
+		document.getElementById("sample").style.display="none";
+	}
+}
+
+</script>
+<?php $_product = $this->getProduct(); ?>
+<?php $buttonTitle = $this->__('Add to Cart'); ?>
+<?php if($_product->isSaleable()): ?>
+<div class="prod-price-box">
+    <div class="add-to-cart">
+        
+        <div class="qty-wrapper">
+		<div class="right-box">
+		<ul class="quant-list">
+			
+			<?php if(!$_product->isGrouped()): ?>
+			<li>
+            <label for="qty"><?php echo $this->__('Enter Sqrfoot Needed:') ?></label>
+            <input type="text" pattern="\d*" name="qty" id="qty" maxlength="12" value="<?php echo max($this->getProductDefaultQty() * 1, 1) ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+			</li>
+        
+        <?php endif; ?>
+    <li>    <div class="add-to-cart-buttons">
+			<?php $product_sku = $_product->getSku();
+$product_id = Mage::getModel("catalog/product")->getIdBySku( $product_sku . '-sample');
+$_product1 = Mage::getModel('catalog/product')->load($product_id);?>
+
+ <button type="button" id="addtocart" title="<?php echo $buttonTitle ?>" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>
+ <button type="button" id="sample" style="display:none;" title="<?php echo $this->__('Free Sample') ?>" class="button" onclick="setLocation('<?php echo (string)Mage::helper('checkout/cart')->getAddUrl($_product1);?>')"><span class="green"><?php echo $this->__('Free Sample') ?></span></button>
+<?php if(!empty($product_id)):?>
+<div class="l-label"><span class="checkbox"><input type="checkbox" id="sample" onchange="chkstatus(this)"><label>Order Sample </label></span></div>
+<?php endif;?>
+
+</div></li>
+</ul>
+</div>
+	<?php $symbol=Mage::app()->getLocale()->currency(Mage::app()->getStore()->getCurrentCurrencyCode())->getSymbol();?>
+	<div class="left-box">
+	<ul class="prod-price-list">
+		<li><label>Actual Sft</label><span id="qty1" class="info"></span></li>
+		<li><label>Price per Pc <?php echo $symbol?></label><span id="pp" class="info"></span></li>
+		<li><label><strong>Total price <?php echo $symbol?></strong></label><span id="total" class="info"><strong></strong></span></li>
+	</ul>
+</div>
+	<?php $pro=$_product->getTierPrice();
+	
+	if(!empty($pro))
+	{
+		 $tierqty=$pro[0]["price_qty"];
+		 $tierprice=$pro[0]["price"];
+	}
+	else
+	{
+	$tierqty=999999;
+	$tierprice=0;
+	}
+	?>
+            <?php echo $this->getChildHtml('', true, true) ?>
+			
+        </div>
+    </div>
+</div>
+
+<?php endif; ?>
+<script type="text/javascript">
+$j('input[name=qty]').keyup(function() { 
+
+var price=<?php echo $_product->getFinalPrice();?>;
+qty=document.getElementById("qty").value;
+if(qty=="") qty=1;
+var tierqty=<?php echo $tierqty; ?>;
+var tierprice=<?php echo $tierprice; ?>;
+if(qty>=tierqty)
+{
+	price=tierprice;
+}
+var Total=price*qty;
+Total=Math.round(Total * 100) / 100;
+document.getElementById("qty1").innerHTML=qty;
+document.getElementById("pp").innerHTML=price;
+document.getElementById("total").innerHTML=Total;
+
+});
+$j(document).ready(function(){
+	var price=<?php  echo $_product->getFinalPrice();?>;
+var qty=document.getElementById("qty").value;
+var Total=price*qty;
+document.getElementById("qty1").innerHTML=qty;
+document.getElementById("pp").innerHTML=price;
+document.getElementById("total").innerHTML=Total;
+
+}); 
+</script>
+
+

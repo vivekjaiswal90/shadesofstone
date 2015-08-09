@@ -1,0 +1,150 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<div class="header-container">
+    <div class="top-header-container">
+		<div class="header container">
+		   <div class="row">
+				<div class="left-top-header">
+					<p class="welcome-msg"><?php echo $this->getWelcome() ?> <?php echo $this->getAdditionalHtml() ?></p>
+				</div>
+				<div class="right-top-header">
+				  <a class="dropdown-toggle" href="#" data-toggle="dropdown"> <span class="caret"><span>&nbsp;</span><span>&nbsp;</span><span class="last">&nbsp;</span> </span> </a>
+					<?php echo $this->getChildHtml('topLinks') ?>
+				</div>
+			 </div>
+		</div>
+	</div>
+	<div class="midle-header-container">
+		<div class="header container">
+				<div class="row">
+				   <div class="row">
+							<div class="left-midle-header col-md-3 col-ms-3">
+								<h1 class="logo"><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo-link"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+							</div>
+							<div class="right-midle-header col-md-9 col-ms-9 ">
+								<div class="quick-access">
+									<?php echo $this->getChildHtml('topSearch') ?>
+								</div>
+								<?php $allowedCurrencies = Mage::getModel('directory/currency')->getConfigAllowCurrencies();?>
+								<?php if (count($allowedCurrencies)>1):?>
+									<div class="cart-currencies" >
+										<?php echo $this->getChildHtml('store_currency') ?>
+										<div class="cart-mini-home">
+											<ul class="cart-mini-content">
+												<?php
+													$_quote = Mage::getSingleton('checkout/session')->getQuote();
+													$_cartQty = $_quote->getItemsQty() * 1;
+												?>
+												<li class="icon-cart-mini"><a href="<?php echo $this->getUrl('checkout/cart') ?>" title="Your Cart"><?php echo $this->__('&nbsp;') ?></a></li>
+												<li>
+													<a  class="item-qty-cartmini" href="<?php echo $this->getUrl('checkout/cart') ?>" title="Your Cart">
+														<strong>
+															<span class="item-number"><?php echo $_cartQty;?>&nbsp;</span>
+															<span class="item"><?php echo $this->__('item') ?>&nbsp;<?php echo $this->__('(s)') ?>&nbsp;</span>
+															<?php echo $this->__('-')?>&nbsp;
+														</strong>
+														<span class="price-cartmini">
+															<?php
+																$_quote = Mage::getSingleton('checkout/session')->getQuote();
+																$_cartQty = $_quote->getItemsQty() * 1;
+																$totals = Mage::getSingleton("checkout/cart")->getQuote()->getTotals();
+																$subtotal = $totals["subtotal"]->getValue();
+																echo Mage::helper('checkout')->formatPrice($subtotal);
+															?>	
+														</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<?php else:?>
+									<div class="cart-currencies" style="background: url(<?php echo $this->getSkinUrl('images/bkg_mini-cart.png')?>) no-repeat left top;clear: both;display: block;float: right;height: 65px;margin: 27px 0 0; padding: 0; width: 142px;">
+										<div class="cart-mini-home">
+											<ul class="cart-mini-content">
+												<?php
+													$_quote = Mage::getSingleton('checkout/session')->getQuote();
+													$_cartQty = $_quote->getItemsQty() * 1;
+												?>
+												<li class="icon-cart-mini"><a><?php echo $this->__('&nbsp;') ?></a></li>
+												<li>
+													<a  class="item-qty-cartmini" href="<?php echo $this->getUrl('checkout/cart') ?>" title="Checkout">
+														<strong>
+															<span class="item-number"><?php echo $_cartQty;?>&nbsp;</span>
+															<span class="item"><?php echo $this->__('item') ?>&nbsp;<?php echo $this->__('(s)') ?>&nbsp;</span>
+															<?php echo $this->__('-')?>&nbsp;
+														</strong>
+														<span class="price-cartmini">
+															<?php
+																$_quote = Mage::getSingleton('checkout/session')->getQuote();
+																$_cartQty = $_quote->getItemsQty() * 1;
+																$totals = Mage::getSingleton("checkout/cart")->getQuote()->getTotals();
+																$subtotal = $totals["subtotal"]->getValue();
+																echo Mage::helper('checkout')->formatPrice($subtotal);
+															?>	
+														</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								<?php endif; ?>
+							</div>
+						</div>
+				</div>
+		</div>
+		<div class="midle-header-content">&nbsp;</div>
+	</div>
+	<div class="bot-header-container">
+		<div class="bot-header-content container">
+		  <div class="row">
+			<?php echo $this->getChildHtml('topMenu') ?>
+			</div>
+		</div>
+	</div>
+	<?php if($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true))):?>
+		<div class="banner-slider-container">
+			<div class="banner-slider-content">
+				<div class="banner-slider-home container">
+				  <div class="row">
+					<?php echo $this->getLayout()->createBlock('banners/banners')->setTemplate('banners/banners.phtml')->toHtml();?>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="home-box-wellcome ">
+		 
+
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('digitalworld-box-wellcome-home-page')->toHtml() ?>
+		
+		</div>
+		
+	<?php endif; ?>
+</div>
+

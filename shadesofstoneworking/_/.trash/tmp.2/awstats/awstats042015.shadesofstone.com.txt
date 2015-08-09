@@ -1,0 +1,495 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /home/shadesofstone/tmp/awstats/awstats.shadesofstone.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2701                
+POS_VISITOR 27683               
+POS_DAY 28158               
+POS_DOMAIN 3278                
+POS_LOGIN 3551                
+POS_ROBOT 3706                
+POS_WORMS 3988                
+POS_EMAILSENDER 4119                
+POS_EMAILRECEIVER 4262                
+POS_SESSION 28241               
+POS_SIDER 28410               
+POS_FILETYPES 4397                
+POS_DOWNLOADS 4584                
+POS_OS 4632                
+POS_BROWSER 4732                
+POS_SCREENSIZE 4905                
+POS_UNKNOWNREFERER 4979                
+POS_UNKNOWNREFERERBROWSER 5066                
+POS_ORIGIN 5148                
+POS_SEREFERRALS 5283                
+POS_PAGEREFS 5427                
+POS_SEARCHWORDS 5575                
+POS_KEYWORDS 5727                
+POS_MISC 2365                
+POS_ERRORS 5786                
+POS_CLUSTER 3407                
+POS_SIDER_404 5894                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150415050658 211 50943 10767874885804
+FirstTime 20150413050334
+LastTime 20150413135122
+LastUpdate 20150415051135 211 0 211 0 0
+TotalVisits 11                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 10                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 11 13 0
+1 0 0 0 8 62 0
+2 0 0 0 17 20 0
+3 0 0 0 9 9 0
+4 0 0 0 11 24 0
+5 6 124 1551607 38 80 169972
+6 6 122 838039 28 38 146485
+7 2 2 16533 14 22 122937
+8 11 18 178572 57 125 214472
+9 3 8 99447 21 39 100658
+10 0 0 0 15 18 12993
+11 0 0 0 13 16 0
+12 0 0 0 8 8 0
+13 1 4 27768 14 17 0
+14 0 0 0 11 14 0
+15 0 0 0 15 18 0
+16 0 0 0 12 12 0
+17 0 0 0 5 7 0
+18 0 0 0 12 14 0
+19 0 0 0 8 28 0
+20 0 0 0 11 12 0
+21 0 0 0 12 12 0
+22 0 0 0 6 6 0
+23 0 0 0 7 7 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+jp 15 28 293461
+us 7 126 851454
+in 5 122 1536165
+lu 2 2 30886
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+spider 16 171278 20150413100258 0
+googlebot 5 67983 20150413094928 0
+no_user_agent 2 0 20150413064006 0
+bot[\s_+:,\.\;\/\\-] 2 30886 20150413072038 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 51 253934 0 0
+png 30 28218 0 0
+html 24 340757 0 0
+jpg 38 1165582 0 0
+js 128 875603 0 0
+Unknown 5 47872 0 0
+gif 2 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 3
+winxp 122 5
+win8.1 152 20
+win7 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+chrome41.0.2272.118 126 6
+firefox3.6 2 2
+chrome34.0.1847.137 2 2
+chrome32.0.1700.76 118 2
+firefox35.0 28 15
+firefox6.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 10 10
+From1 0 0
+From2 0 0
+From3 0 0
+From4 19 268
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 16 0
+301 7 0
+404 557 496673
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 221
+/ 37 -
+/index.php/catalog/product_compare/add/product/34/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMvbWFyYmxlcy1tb3NhaWNzLmh0bWw,/form_key/P6X8MQQw1qyYPCX4/ 1 -
+/index.php/customer-service 1 -
+/skin/frontend/default/default/js/shadesofstones/script.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/catalog/product_compare/add/product/27/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/ajax/product/quickview/id/31/ 1 -
+/index.php/wishlist/index/add/product/30/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/skin/frontend/default/default/css/madisonisland.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/wishlist/index/add/product/11/form_key/CUUJLoDb3XUcI1td/ 1 -
+/index.php/catalog/product_compare/add/product/15/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMuaHRtbA,,/form_key/Jd4X64ukSebNRYaG/ 1 -
+/index.php/wishlist/index/add/product/20/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/flooring/natural-stone.html 1 -
+/index.php/wishlist/index/add/product/32/form_key/U4budmGFYWLfjRpU/ 1 -
+/index.php/catalog/product_compare/add/product/29/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/js/scriptaculous/controls.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/popular-series/china-black.html 1 https://www.google.com/
+/index.php/catalog/product_compare/add/product/28/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/js/prototype/windows/themes/magento.css 25 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/skin/frontend/default/default/js/app.js 2 http://shadesofstone.com/index.php/tiles.html
+/index.php/wishlist/index/add/product/33/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/wishlist/index/add/product/32/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/wishlist/index/add/product/33/form_key/jgXqPFzxzFJCLwJI/ 1 -
+/js/varien/product.js 2 -
+/index.php/admin 3 -
+/index.php/kitchen-bath/trims-borders/rail-molding.html 1 -
+/index.php/wishlist/index/add/product/25/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/wishlist/index/add/product/28/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/catalog/product_compare/add/product/26/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/index.php/catalog/product_compare/add/product/30/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/skin/frontend/default/default/js/shadesofstones/jquery-anchor.js 3 http://shadesofstone.com/index.php/flooring.html
+/index.php/catalog/product_compare/add/product/27/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/kitchen-bath/mosaics-blends/oddysey-magic-pattern-mosaic-12x12-golden-blend.html 1 -
+/skin/frontend/default/default/css/shadesofstones/style-popup.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/ajax/product/quickview/id/30/ 1 -
+/index.php/popular-series.html 4 -
+/index.php/flooring/natural-stone/travertine.html 3 -
+/index.php/catalog/product_compare/add/product/29/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/flooring/as-per-application/glazed.html 2 -
+/index.php/popular-series/oddysey-perla-12x12-blend.html 1 -
+/index.php/wishlist/index/add/product/12/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/skin/frontend/default/default/js/shadesofstones/modernizr.custom.46884.js 1 -
+/index.php/kitchen-bath/glass-metal-tiles/glass-blend.html 1 -
+/skin/frontend/default/default/testimonialmanager/testimonialmanager.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/skin/frontend/default/default/sm/searchboxpro/js/jquery-1.8.2.min.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.svg 2 http://shadesofstone.com/customer/account/create/%20
+/index.php/kitchen-bath/mosaics-blends/marbles-mosaics/arabescato-carrara-interwoven-12x12-polished.html 1 -
+/index.php/wishlist/index/add/product/23/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.ttf 22 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/skin/frontend/default/default/my_igallery/css/prettyPhoto.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/wishlist/index/add/product/21/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/skin/frontend/default/default/js/shadesofstones/jquery.slicebox.js 3 http://shadesofstone.com/index.php/review/product/list/id/4/
+/index.php/catalog/seo_sitemap/category/ 1 -
+/index.php/catalog/product_compare/add/product/30/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/js/lib/ccard.js 2 -
+/index.php/landscape/indoor-outdoors/ledger-panel.html 5 -
+/index.php/popular-series/ostrich-gray.html 4 http://www.google.com/url
+/index.php/diy.html 2 -
+/index.php/wishlist/index/add/product/15/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/js/varien/js.js 1 -
+/index.php/wishlist/index/add/product/22/form_key/xhqz8apd5WbrZCHS/ 1 -
+/skin/frontend/default/default/css/shadesofstones/owl.carousel.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/wishlist/index/add/product/28/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/js/scriptaculous/slider.js 3 http://shadesofstone.com/index.php/tiles.html
+/index.php/ajax/product/quickview/id/22/ 1 -
+/index.php/landscapeideas 1 -
+/index.php/catalog/product_compare/add/product/21/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/wishlist/index/add/product/31/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/popular-series/stainless-steel/oddysey-magic-pattern-mosaic-12x12-golden-blend.html 1 -
+/index.php/popular-series/arabescato-carrara.html 4 -
+/index.php/wishlist/index/add/product/14/form_key/NnlAo1ueUJOfTTjC/ 1 -
+/index.php/wishlist/index/add/product/31/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.woff 23 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/popular-series/stainless-steel/odyssey-subway-3-6-stainless-steel-mosaic.html 1 -
+/js/scriptaculous/effects.js 2 http://shadesofstone.com/index.php/tiles.html
+/index.php/wishlist/index/add/product/27/form_key/xhqz8apd5WbrZCHS/ 1 -
+/js/mage/cookies.js 1 -
+/index.php/catalog/product_compare/add/product/12/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/skin/frontend/default/default/testimonialmanager/jquery.bxslider.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/wishlist/index/add/product/12/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/js/prototype/window.js 3 http://shadesofstone.com/index.php/tiles.html
+/index.php/catalog/product_compare/add/product/11/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9sYW5kc2NhcGUuaHRtbA,,/form_key/CUUJLoDb3XUcI1td/ 1 -
+/skin/frontend/default/default/css/czettner_ajax.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/js/prototype/prototype.js 1 -
+/index.php/kitchen-bath/mosaics-blends.html 4 -
+/index.php/ajax/product/quickview/id/12/ 1 -
+/js/prototype/windows/themes/ 1 -
+/index.php/wishlist/index/add/product/26/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/customer/account/ 1 -
+/media/slider/bnr-frame-bg3.jpg 1 -
+/skin/frontend/default/default/css/fonts/opensans-light-webfont.svg 2 http://shadesofstone.com/customer/account/create/%20
+/skin/frontend/default/default/js/minicart.js 2 http://shadesofstone.com/index.php/tiles.html
+/index.php/catalog/seo_sitemap/category/api/xmlrpc 1 -
+/js/calendar/calendar-win2k-1.css 2 http://shadesofstone.com/index.php/popular-series/tuscany-gold/tuscany-gold-16-sft-french-pattern.html
+/index.php/catalog/product_compare/add/product/12/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/skin/frontend/base/default/js/shadesofstones/docs.min.js 45 -
+/index.php/wishlist/index/add/product/21/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/wishlist/index/add/product/28/form_key/xhqz8apd5WbrZCHS/ 1 -
+//magmi/plugins/plugin.php 2 -
+/index.php/catalog/product_compare/add/product/15/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/wishlist/index/add/product/29/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/wishlist/index/add/product/20/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/catalog/product_compare/add/product/34/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/index.php/wishlist/index/add/product/30/form_key/LIcsJ7fN1CpzRYD4/ 1 -
+/skin/frontend/default/default/js/lib/elevatezoom/jquery.elevateZoom-3.0.8.min.js 2 -
+/index.php/catalog/product_compare/add/product/33/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/skin/frontend/default/default/js/lib/jquery-1.11.2.min.js 3 http://shadesofstone.com/index.php/tiles.html
+/skin/frontend/default/default/css/shadesofstones/new-input.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/kitchen-bath/odyssey-subway-3-3-stainless-steel-mosaic.html 1 -
+/index.php/wishlist/index/add/product/27/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/kitchen-bath/mosaics-blends/odyssey-subway-3-3-stainless-steel-mosaic.html 1 -
+/index.php/landscape/indoor-outdoors.html 1 -
+/skin/frontend/default/default/css/shadesofstones/checkbox.png 3 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/new-input.css
+/skin/frontend/default/default/css/images/logo-bg.png 21 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style.css
+/index.php/kitchen-bath/mosaics-blends/oddysey-perla-12x12-blend.html 1 -
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.ttf 22 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/skin/frontend/default/default/js/shadesofstones/owl.carousel.js 2 -
+/index.php/catalog/seo_sitemap/product/ 1 -
+/js/varien/form.js 1 -
+/index.php/kitchen-bath/mosaics-blends/marbles-mosaics.html 3 -
+/index.php/popular-series/oddysey-2-hexagon-12x12-interlocking-mosaic.html 1 -
+/robots.txt 12 -
+/index.php/kitchen-bath/glass-metal-tiles.html 1 -
+/index.php/catalog/product_compare/add/product/32/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/catalog/product_compare/add/product/34/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMvbWFyYmxlcy1tb3NhaWNzLmh0bWw,/form_key/jgXqPFzxzFJCLwJI/ 1 -
+/index.php/kitchen-bath/glass-metal-tiles/oddysey-magic-pattern-mosaic-12x12-golden-blend.html 1 -
+/index.php/wishlist/index/add/product/31/form_key/Jd4X64ukSebNRYaG/ 1 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/wishlist/index/add/product/27/form_key/Jd4X64ukSebNRYaG/ 1 -
+/index.php/kitchen-bath/mosaics-blends/subway-tiles/odyssey-subway-3-3-stainless-steel-mosaic.html 1 -
+/index.php/kitchen-bath/metallix-brick-1x2-interlocking-blend.html 1 -
+/index.php/wishlist/index/add/product/27/form_key/U4budmGFYWLfjRpU/ 1 -
+/skin/frontend/default/default/js/shadesofstones/small-header-scroll.js 2 http://shadesofstone.com/index.php/tiles.html
+/js/scriptaculous/builder.js 2 -
+/index.php/catalog/category/view/id/4 1 -
+/index.php/catalog/product_compare/add/product/30/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/catalog/product_compare/add/product/33/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMvbWFyYmxlcy1tb3NhaWNzLmh0bWw,/form_key/P6X8MQQw1qyYPCX4/ 1 -
+/skin/frontend/default/default/js/shadesofstones/main.js 2 -
+/index.php/wishlist/index/add/product/31/form_key/LIcsJ7fN1CpzRYD4/ 1 -
+/skin/frontend/default/default/css/shadesofstones/style.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/skin/frontend/default/default/my_igallery/css/styles.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/skin/frontend/default/default/js/lib/jquery.cycle2.min.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/wishlist/index/add/product/31/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/wishlist/index/add/product/21/form_key/LIcsJ7fN1CpzRYD4/ 1 -
+/index.php/catalog/product_compare/add/product/28/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/index.php/popular-series/oddysey-magic-pattern-mosaic-12x12-golden-blend.html 1 -
+/index.php/catalog/product_compare/add/product/22/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/popular-series/oddysey-shapes-4x4-mosaic.html 1 -
+/skin/frontend/default/default/css/shadesofstones/slicebox.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+//magmi/plugins/extra/general/agent/plugin.php 2 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMvbWV0YWwtbW9zYWljcy5odG1s/form_key/LIcsJ7fN1CpzRYD4/ 1 -
+/skin/frontend/default/default/css/shadesofstones/bootstrap.min.css 2 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/catalog/product_compare/add/product/29/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/skin/frontend/default/default/js/productInfo.js 2 http://shadesofstone.com/index.php/tiles.html
+/skin/frontend/default/default/testimonialmanager/jquery.bxslider.min.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/wishlist/index/add/product/34/form_key/P6X8MQQw1qyYPCX4/ 1 -
+/index.php/popular-series/oddysey-pyramids-12x12-interlocking-blend.html 1 -
+/js/my_igallery/jquery.js 1 -
+/index.php/catalog/product_compare/add/product/33/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMvbWFyYmxlcy1tb3NhaWNzLmh0bWw,/form_key/jgXqPFzxzFJCLwJI/ 1 -
+/index.php/kitchen-bath/glass-metal-tiles/oddysey-subway-2-x4-stainless-steel-mosaic.html 1 -
+/index.php/popular-series/stainless-steel/stainless-steel-magic-pattern-mosaic-12x12.html 1 -
+/index.php/catalog/product_compare/add/product/30/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMuaHRtbA,,/form_key/Jd4X64ukSebNRYaG/ 1 -
+/skin/frontend/default/default/js/lib/jquery.cycle2.swipe.min.js 2 -
+/index.php/kitchen-bath/mosaics-blends/subway-tiles.html 2 -
+/skin/frontend/default/default/js/shadesofstones/bootstrap.min.js 2 http://shadesofstone.com/index.php/landscape/indoor-outdoors/meshed-flagstone.html
+/index.php/home.html 2 -
+/index.php/kitchen-bath/oddysey-2-hexagon-12x12-interlocking-mosaic.html 1 -
+/index.php/catalog/product_compare/add/product/30/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/skin/frontend/default/default/css/shadesofstones/carousel.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/catalog/product_compare/add/product/28/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/skin/frontend/default/default/js/slideshow.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/skin/frontend/default/default/css/fonts/opensans-regular-webfont.woff 23 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/wishlist/index/add/product/26/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/wishlist/index/add/product/25/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/wishlist/index/add/product/30/form_key/Jd4X64ukSebNRYaG/ 1 -
+/skin/frontend/default/default/js/lib/modernizr.custom.min.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/skin/frontend/default/default/css/shadesofstones/input.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/catalog/product_compare/add/product/31/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvZ2xhc3MtbWV0YWwtdGlsZXMuaHRtbA,,/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/wishlist/index/add/product/22/form_key/MJhZZpQWXL7UY6NA/ 1 -
+/index.php/popular-series/stainless-steel.html 15 -
+/js/calendar/calendar-setup.js 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold/tuscany-gold-16-sft-french-pattern.html
+/index.php/catalog/product_compare/add/product/26/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMuaHRtbA,,/form_key/Jd4X64ukSebNRYaG/ 1 -
+/skin/frontend/default/default/css/styles.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/arabescato-carrara-interwoven-12x12-polished.html 2 -
+/skin/frontend/default/default/testimonialmanager/images/bx_loader.gif 12 http://shadesofstone.com/skin/frontend/default/default/testimonialmanager/jquery.bxslider.css
+/js/prototype/validation.js 4 http://shadesofstone.com/index.php/tiles.html
+/skin/frontend/default/default/testimonialmanager/jqueryNoConfig.js 2 http://shadesofstone.com/index.php/review/product/list/id/4/
+/js/calendar/calendar.js 2 -
+/index.php/wishlist/index/add/product/14/form_key/9jzZNk33S33F78vH/ 1 -
+/index.php/catalog/product_compare/add/product/26/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGguaHRtbA,,/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/ajax/product/quickview/id/28/ 1 -
+/index.php/kitchen-bath/mosaics-blends/oddysey-shapes-4x4-mosaic.html 1 -
+/index.php/catalog/product_compare/add/product/23/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/index.php/wishlist/index/add/product/30/form_key/U4budmGFYWLfjRpU/ 1 -
+/skin/frontend/default/default/css/images/popup-close-btn.png 21 http://shadesofstone.com/skin/frontend/default/default/css/shadesofstones/style-popup.css
+/index.php/catalog/product_compare/add/product/27/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy5odG1s/form_key/U4budmGFYWLfjRpU/ 1 -
+/skin/frontend/default/default/js/lib/matchMedia.js 1 -
+/index.php/catalog/product_compare/add/product/14/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9mbG9vcmluZy5odG1s/form_key/NnlAo1ueUJOfTTjC/ 1 -
+/index.php/wishlist/index/add/product/27/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/index.php/wishlist/index/add/product/23/form_key/xhqz8apd5WbrZCHS/ 1 -
+/skin/frontend/default/default/js/lib/matchMedia.addListener.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/wishlist/index/add/product/29/form_key/lk9bDcpHcaLMIjHu/ 1 -
+/js/scriptaculous/dragdrop.js 1 -
+/index.php/catalog/product_compare/add/product/31/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/js/my_igallery/jquery.prettyPhoto.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/skin/frontend/default/default/js/lib/enquire.js 2 -
+/js/my_igallery/jquery.noconflict.js 2 -
+/js/prototype/windows/themes/default.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/api/xmlrpc 1 -
+/index.php/wishlist/index/add/product/33/form_key/P6X8MQQw1qyYPCX4/ 1 -
+/index.php/kitchenroomscene 1 -
+/skin/frontend/default/default/sm/searchboxpro/css/searchboxpro.css 1 http://shadesofstone.com/index.php/popular-series/tuscany-gold.html
+/index.php/testimonials/ 1 -
+/skin/frontend/default/default/js/shadesofstones/new-input.js 1 -
+/index.php/popular-series/tuscany-gold.html 6 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9raXRjaGVuLWJhdGgvbW9zYWljcy1ibGVuZHMuaHRtbA,,/form_key/Jd4X64ukSebNRYaG/ 1 -
+/index.php/wishlist/index/add/product/34/form_key/jgXqPFzxzFJCLwJI/ 1 -
+/index.php/catalog/product_compare/add/product/25/uenc/aHR0cDovL3NoYWRlc29mc3RvbmUuY29tL2luZGV4LnBocC9wb3B1bGFyLXNlcmllcy9zdGFpbmxlc3Mtc3RlZWwuaHRtbA,,/form_key/xhqz8apd5WbrZCHS/ 1 -
+/skin/frontend/default/default/js/lib/selectivizr.js 1 http://shadesofstone.com/index.php/flooring/natural-stone.html
+/index.php/wishlist/index/add/product/26/form_key/lk9bDcpHcaLMIjHu/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 10
+126.15.20.85 15 28 293461 20150413090332
+122.177.213.63 5 122 1536165 20150413050837
+94.242.239.162 2 2 30886 20150413064008
+66.249.83.250 1 1 15444 20150413071427
+66.249.83.130 1 1 1089 20150413071427
+54.145.90.222 1 1 12849 20150413062301
+54.224.170.223 1 59 387982 20150413062812
+96.255.239.138 1 4 27768 20150413135122
+54.196.83.61 1 59 390880 20150413062226
+54.144.58.157 1 1 15442 20150413060850
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20150413 29 278 2711966 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+0s-30s 9
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 6 92657 5 5
+/index.php/popular-series.html 4 60364 0 1
+/index.php/ 3 46485 0 1
+/index.php/customer/account/create/ 3 38702 0 0
+/customer/account/create/%20 2 25700 2 2
+/index.php/customer/account/ 1 12227 0 0
+/index.php/visualizers/ 1 11841 0 0
+/index.php/customer/account/index/ 1 12279 0 0
+/cpanel 1 9048 1 1
+/index.php/customer/address/new/ 1 21566 0 0
+/index.php/flooring/natural-stone/marble.html 1 11125 1 0
+/index.php/catalogsearch/result/ 1 11199 1 0
+/index.php/flooring/ceramic-porcelain.html 1 11148 0 0
+/index.php/roomscene 1 12035 0 0
+/index.php/flooring/natural-stone/granite.html 1 11164 0 0
+/index.php/admin 1 1089 1 1
+END_SIDER

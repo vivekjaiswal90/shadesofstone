@@ -1,0 +1,81 @@
+<head>
+<!-- Add jQuery library -->
+	<link rel="stylesheet" href="<?php echo $this->getSkinUrl('facegall/source/jquery.fancybox.css')?>" type="text/css" media="screen" />
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('facegall/source/helpers/jquery.fancybox-buttons.css?v=1.0.5')?>" />
+	
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('facegall/lib/jquery-1.10.1.min.js')?>"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('facegall/source/jquery.fancybox.js?v=2.1.5')?>"></script>
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('facegall/source/jquery.fancybox.pack.js')?>"></script>
+	
+	<script type="text/javascript" src="<?php echo $this->getSkinUrl('facegall/source/helpers/jquery.fancybox-buttons.js?v=1.0.5')?>"></script>
+	
+
+	
+<script type="text/javascript">
+$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+			
+</script>
+
+</head>
+
+<?php $_helper = $this->helper('igallery'); ?>
+<?php $_gallery = $this->getGallery(); ?>
+<?php if ($_gallery) : ?>
+    <div class="page-title igallery-title">
+        <h1><?php echo $this->stripTags($_gallery->getName(), null, true) ?></h1>
+    </div>
+    <?php if($_description = $_gallery->getDescription()): ?>
+    <div class="igallery-description std">
+        <?php echo $_description; ?>
+    </div>
+    <?php endif; ?>
+<?php endif; ?>
+
+<?php $_imageCollection = $this->_getCollection(); ?>
+<?php if(!$_imageCollection->count()): ?>
+<p class="note-msg"><?php echo $this->__('There are no image matching the selection.') ?></p>
+<?php else: ?>
+<div class="category-products igallery-images">
+
+    <?php $_collectionSize = $_imageCollection->count() ?>
+    <?php $_columnCount = $this->_getColumnCount(); ?>
+    <?php $i=0; foreach ($_imageCollection as $_image): ?>
+        <?php if ($i++%$_columnCount==0): ?>
+        <ul class="my-igallery-grid">
+        <?php endif ?>
+            <li class="item<?php if(($i-1)%$_columnCount==0): ?> first<?php elseif($i%$_columnCount==0): ?> last<?php endif; ?>">
+                <a title="<?php echo $this->stripTags($_image->getLabel(), null, true) ?>" class="fancybox-buttons" data-fancybox-group="button" href="<?php echo $this->helper('igallery')->getImageUrl($_image->getFile()); ?>"><img src="<?php echo $this->helper('igallery/image')->init($_image->getFile())->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($_image->getLabel(), null, true) ?>" /></a>
+				
+            </li>
+        <?php if ($i%$_columnCount==0 || $i==$_collectionSize): ?>
+        </ul>
+        <?php endif ?>
+    <?php endforeach ?>
+   
+</div>
+<?php endif; ?>

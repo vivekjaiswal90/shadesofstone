@@ -1,0 +1,84 @@
+head	1.5;
+access;
+symbols;
+locks
+	shadesofstone:1.5; strict;
+comment	@# @;
+
+
+1.5
+date	2015.04.25.16.36.53;	author shadesofstone;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.04.25.16.36.52;	author shadesofstone;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.04.25.16.29.09;	author shadesofstone;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2015.04.25.16.12.17;	author shadesofstone;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2015.04.25.16.12.17;	author shadesofstone;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@info:$1$/O4NDuYt$4UyJhEVIl6MjvS.KMaLzE0:16550::::::
+@
+
+
+1.4
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a0 1
+rd:$1$HsDzIMBh$FON5ARYar5t7nM1BIfRkx1:16550::::::
+@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+a1 1
+rd:$1$7nTv5zOT$EGBub5o0f.88Uvd8HPJTx/:16550::::::
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

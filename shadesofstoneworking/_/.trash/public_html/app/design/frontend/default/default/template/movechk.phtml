@@ -1,0 +1,24 @@
+
+<?php
+$n=0;
+ $cart = Mage::getModel('checkout/cart')->getQuote();
+foreach ($cart->getAllItems() as $item) {
+    $productName = $item->getProduct()->getName();
+     $productPrice = $item->getProduct()->getPrice();
+	$n++;
+}
+if($n>0)
+{
+
+?>
+	<script>
+$j(document).ready(function(){
+  Dialog.confirm($('login').innerHTML, {className:"alphacube-01",hideEffect:Element.hide,showEffect:Element.show, width:400, okLabel: "Checkout", cancelLabel: "Shopping", onOk:function(win){ window.location='<?php echo Mage::getBaseUrl()."checkout/cart/"; ?>'}});
+}); 
+</script>
+<?php 
+}
+?>
+<div id="login" style="display:none"> 
+ <span class="login_input">product is added</span>	
+</div>
