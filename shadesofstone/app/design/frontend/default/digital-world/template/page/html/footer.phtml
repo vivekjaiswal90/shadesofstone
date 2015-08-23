@@ -1,0 +1,84 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+	<div class="footer-info-contact">
+		<div class="box-info-contact-footer-content container">
+			<div class="box-about-contact-socialfacebook-footer row">
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('digitalworld-box-info-about-footer')->toHtml() ?>
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('digitalworld-box-info-contact-footer')->toHtml() ?>
+				
+				<!------ like facebook  ----------------------->
+				<div class="box-info-footer social-facebook-footer">
+					<h2 class="title-box-info">Facebook</h2>
+					<div class="box-info-content">
+						<div class="like-box-facebook">
+							<div id="fb-root"></div>
+							<script>(function(d, s, id) {
+								var js, fjs = d.getElementsByTagName(s)[0];
+								if (d.getElementById(id)) return;
+								js = d.createElement(s); js.id = id;
+								js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
+								fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+
+						  <div class="fb-like-box" data-href="http://www.facebook.com/MageBuzz" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+						 
+						  <div class="button-like-facebook">
+							<div id="fb-root"></div>
+							<fb:like href="http://www.facebook.com/MageBuzz" send="false" layout="button_count" width="200" show_faces="false" font="arial"></fb:like>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+				<!------------------------------------------------->
+			</div>
+		</div>
+	</div>
+	<div class="footer-content">
+		<div class="footer container">
+		  <div class="row">
+			<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('digitalworld-box-link-footer')->toHtml() ?>
+			</div>
+		</div>
+		<div class="payment-container ">
+			<div class="payment-content container">
+			  <div class="row">
+				<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('digitalworld-payment-method-logo')->toHtml() ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="address-container">
+		<div class="address-content container">
+			<div class="row">
+				<address><?php echo $this->getCopyright() ?></address>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+
+<div class="box-link-footer-content">
+<div class="box-link box-link-infomation">
+<h3 class="title-box-link-footer">Information</h3>
+<ul class="box-link-content box-link-content-about-us">
+<li class="first item"><a href="#">About us</a></li>
+<li class="item"><a href="#">Delivery</a></li>
+<li class="item"><a href="#">Privacy Policy</a></li>
+<li class="last item"><a href="#">Terms &amp; Conditions</a></li>
+</ul>
+</div>
+<div class="box-link box-link-customer-service">
+<h3 class="title-box-link-footer">Customer Service</h3>
+<ul class="box-link-content box-link-content-help-info">
+<li class="first item"><a href="#">Contact Us</a></li>
+<li class="item"><a href="#">Returns</a></li>
+<li class="last item"><a href="#">Site Map</a></li>
+</ul>
+</div>
+<div class="box-link box-link-extras-link">
+<h3 class="title-box-link-footer">Extras</h3>
+<ul class="box-link-content box-link-content-help-info">
+<li class="first item"><a href="#">Brands</a></li>
+<li class="item"><a href="#">Gift Vouchers</a></li>
+<li class="item"><a href="#">Affiliates</a></li>
+<li class="last item"><a href="#">Specials</a></li>
+</ul>
+</div>
+<div class="box-link box-link-my-account">
+<h3 class="title-box-link-footer">My Account</h3>
+<ul class="box-link-content box-link-content-my-account">
+<li class="first item"><a href="#">Login</a></li>
+<li class="item"><a href="#">Order History</a></li>
+<li class="item"><a href="#">Wish List</a></li>
+<li class="last item"><a href="#">Newsletter</a></li>
+</ul>
+</div>
+</div>
